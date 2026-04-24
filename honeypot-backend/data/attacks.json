@@ -4618,5 +4618,44 @@
       "raw_log": "2026-04-24T13:32:46+0000 [HoneyPotSSHTransport,5,172.17.0.1] login attempt [b'user'/b'ff'] failed"
     },
     "attack_hash": "18e6de5f600bd476a85aab99c57088bf"
+  },
+  "83dda8b3-ff75-4485-bc5f-f7fd21fecb2e": {
+    "id": "83dda8b3-ff75-4485-bc5f-f7fd21fecb2e",
+    "honeypot_id": "33c33925-7557-47ed-bccd-aaef26dfae1c",
+    "timestamp": "2026-04-24 13:56:00",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "hjhjh",
+    "details": {
+      "raw_log": "2026-04-24T13:56:00+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'user'/b'hjhjh'] failed"
+    },
+    "attack_hash": "52d4a514c3f456e36d8b67f040fcd198"
+  },
+  "17ce0e69-d05a-426d-80d1-b39767a42998": {
+    "id": "17ce0e69-d05a-426d-80d1-b39767a42998",
+    "honeypot_id": "33c33925-7557-47ed-bccd-aaef26dfae1c",
+    "timestamp": "2026-04-24 13:56:03",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "hjhjh",
+    "details": {
+      "raw_log": "2026-04-24T13:56:03+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'user'/b'hjhjh'] failed"
+    },
+    "attack_hash": "f765a512f9d2bb0ad652977e03df3dd4"
+  },
+  "1a704f2e-07db-4a68-9e86-eb9274bcfb34": {
+    "id": "1a704f2e-07db-4a68-9e86-eb9274bcfb34",
+    "honeypot_id": "33c33925-7557-47ed-bccd-aaef26dfae1c",
+    "timestamp": "2026-04-24 13:56:07",
+    "source_ip": "172.17.0.1]",
+    "attack_type": "login_attempt",
+    "username": "user",
+    "password": "lla",
+    "details": {
+      "raw_log": "2026-04-24T13:56:07+0000 [HoneyPotSSHTransport,0,172.17.0.1] login attempt [b'user'/b'lla'] failed"
+    },
+    "attack_hash": "b0c1535873c0d18603049654b5016cdd"
   }
 }

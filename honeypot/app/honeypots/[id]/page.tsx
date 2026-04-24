@@ -1,7 +1,7 @@
 // app/honeypots/[id]/page.tsx
 "use client";
 
-import { useState, useEffect, useMemo, useCallback } from "react";
+import { useState, useEffect, useMemo, useCallback, useRef } from "react";
 import { useParams, useRouter } from "next/navigation";
 import Link from "next/link";
 import {
@@ -9,6 +9,7 @@ import {
   getHoneypotAttacks,
   deployHoneypot,
   deleteHoneypot,
+  subscribeToAttacks,
   Honeypot,
   Attack, // Assuming Attack type is defined in api-client
 } from "@/lib/api-client";
@@ -43,6 +44,8 @@ import {
 const formatNumber = (num: number): string => {
   return num.toLocaleString();
 };
+
+const MAX_VISIBLE_ATTACKS = 50;
 
 // Mapping Honeypot Type to Lucide Icon
 const HoneypotTypeIcon = ({
@@ -81,16 +84,19 @@ export default function HoneypotDetailPage() {
   const [error, setError] = useState<string | null>(null);
   const [showDeleteModal, setShowDeleteModal] = useState(false);
   const [copied, setCopied] = useState(false);
+  const liveAttackIdsRef = useRef<Set<string>>(new Set());
 
   // --- Data Fetching Logic ---
   const loadAttacks = useCallback(
     async (isInitialLoad = false) => {
       if (!isInitialLoad) setAttacksLoading(true);
       try {
-        const result = await getHoneypotAttacks(honeypotId, 50); // Fetch latest 50 attacks
+        const result = await getHoneypotAttacks(honeypotId, MAX_VISIBLE_ATTACKS); // Fetch latest attacks
+        liveAttackIdsRef.current = new Set(result.attacks.map((attack) => attack.id));
         setAttacks(result.attacks);
       } catch (err: any) {
         console.error("Failed to load attacks:", err);
+        liveAttackIdsRef.current = new Set();
         setAttacks([]); // Clear attacks on error
       } finally {
         setAttacksLoading(false);
@@ -112,6 +118,7 @@ export default function HoneypotDetailPage() {
         if (data.status === "active") {
           await loadAttacks(isInitialLoad); // Pass initial load flag
         } else {
+          liveAttackIdsRef.current = new Set();
           setAttacks([]); // Clear attacks if not active
           setAttacksLoading(false); // Stop attack loading if not active
         }
@@ -156,6 +163,34 @@ export default function HoneypotDetailPage() {
     return () => clearInterval(interval);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [honeypotId, isActionInProgress]); // Keep essential dependencies
+
+  useEffect(() => {
+    const unsubscribe = subscribeToAttacks((attack) => {
+      if (attack.honeypot_id !== honeypotId) {
+        return;
+      }
+
+      if (liveAttackIdsRef.current.has(attack.id)) {
+        return;
+      }
+
+      liveAttackIdsRef.current.add(attack.id);
+      setAttacksLoading(false);
+      setAttacks((prev) => [attack, ...prev].slice(0, MAX_VISIBLE_ATTACKS));
+      setHoneypot((prev) => {
+        if (!prev || prev.id !== attack.honeypot_id) {
+          return prev;
+        }
+
+        return {
+          ...prev,
+          attack_count: prev.attack_count + 1,
+        };
+      });
+    });
+
+    return unsubscribe;
+  }, [honeypotId]);
 
   // --- Actions ---
   const handleDeploy = async () => {

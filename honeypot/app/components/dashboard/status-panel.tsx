@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { getAllHoneypots } from "@/lib/api-client";
+import { getAllHoneypots, subscribeToAttacks } from "@/lib/api-client";
 
 export default function StatusPanel() {
   const [stats, setStats] = useState({
@@ -35,6 +35,17 @@ export default function StatusPanel() {
     }
 
     fetchStats();
+  }, []);
+
+  useEffect(() => {
+    const unsubscribe = subscribeToAttacks(() => {
+      setStats((prev) => ({
+        ...prev,
+        totalAttacks: prev.totalAttacks + 1,
+      }));
+    });
+
+    return unsubscribe;
   }, []);
 
   return (

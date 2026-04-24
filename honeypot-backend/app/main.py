@@ -1,11 +1,10 @@
 # app/main.py
-from fastapi import FastAPI, Request
+from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 import asyncio
 import os
 from datetime import datetime
-import os
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -20,6 +19,23 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 logger = logging.getLogger(__name__)
+
+
+def _get_attack_sync_interval() -> float:
+    """Return the background attack sync interval in seconds."""
+    raw_value = os.getenv("ATTACK_SYNC_INTERVAL_SECONDS", "2")
+
+    try:
+        return max(1.0, float(raw_value))
+    except ValueError:
+        logger.warning(
+            "Invalid ATTACK_SYNC_INTERVAL_SECONDS value '%s'; falling back to 2 seconds",
+            raw_value,
+        )
+        return 2.0
+
+
+ATTACK_SYNC_INTERVAL_SECONDS = _get_attack_sync_interval()
 
 # Create FastAPI app
 app = FastAPI(
@@ -49,6 +65,7 @@ async def periodic_attack_sync():
     from .docker_service import DockerService
     from .database import DatabaseService
     from .models import Attack
+    from .honeypot import broadcast_attack
     import uuid
     
     docker_service = DockerService()
@@ -102,14 +119,7 @@ async def periodic_attack_sync():
                         if saved_attack:
                             new_attack_count += 1
                             
-                            # Notify WebSocket clients
-                            from .honeypot import active_connections
-                            if active_connections:
-                                for connection in list(active_connections):
-                                    try:
-                                        await connection.send_json(attack.dict())
-                                    except Exception:
-                                        pass
+                            await broadcast_attack(attack)
                     
                     if new_attack_count > 0:
                         logger.info(f"Added {new_attack_count} new attacks for honeypot {honeypot.id}")
@@ -120,11 +130,11 @@ async def periodic_attack_sync():
                     logger.error(f"Error syncing attacks for honeypot {honeypot.id}: {e}")
             
             # Wait before next sync
-            await asyncio.sleep(30)
+            await asyncio.sleep(ATTACK_SYNC_INTERVAL_SECONDS)
             
         except Exception as e:
             logger.error(f"Error in periodic attack sync: {e}")
-            await asyncio.sleep(60)
+            await asyncio.sleep(max(ATTACK_SYNC_INTERVAL_SECONDS * 2, 5))
 
 @app.on_event("startup")
 async def startup_event():

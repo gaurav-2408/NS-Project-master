@@ -1,5 +1,6 @@
 # app/honeypot.py
 from fastapi import APIRouter, HTTPException, Depends, Query, WebSocket, WebSocketDisconnect
+from fastapi.encoders import jsonable_encoder
 from typing import List, Dict, Any, Optional
 import logging
 import asyncio
@@ -20,6 +21,24 @@ db_service = DatabaseService()
 
 # WebSocket connections for real-time attack notifications
 active_connections: set = set()
+
+
+async def broadcast_attack(attack: Attack) -> None:
+    """Broadcast a newly detected attack to all live WebSocket listeners."""
+    if not active_connections:
+        return
+
+    payload = jsonable_encoder(attack)
+    stale_connections = []
+
+    for connection in list(active_connections):
+        try:
+            await connection.send_json(payload)
+        except Exception:
+            stale_connections.append(connection)
+
+    for connection in stale_connections:
+        active_connections.discard(connection)
 
 @router.post("/honeypots", response_model=Honeypot)
 async def create_honeypot(honeypot: HoneypotCreate):
@@ -162,13 +181,7 @@ async def sync_attacks(honeypot_id: str):
         db_service.save_attack(attack)
         new_attacks += 1
         
-        # Notify WebSocket clients
-        if active_connections:
-            for connection in list(active_connections):
-                try:
-                    await connection.send_json(attack.dict())
-                except Exception:
-                    active_connections.discard(connection)
+        await broadcast_attack(attack)
     
     # Update honeypot count
     honeypot = db_service.get_honeypot(honeypot_id)
@@ -276,13 +289,7 @@ async def add_test_attack(honeypot_id: str):
     # Save to database
     db_service.save_attack(attack)
     
-    # Notify WebSocket clients
-    if active_connections:
-        for connection in list(active_connections):
-            try:
-                await connection.send_json(attack.dict())
-            except Exception:
-                active_connections.discard(connection)
+    await broadcast_attack(attack)
     
     return attack
 
