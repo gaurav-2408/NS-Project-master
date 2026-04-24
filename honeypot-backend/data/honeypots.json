@@ -7,11 +7,11 @@
     "emulated_system": "Ubuntu 22.04",
     "description": "",
     "id": "4b8e898b-79c2-43b7-b8c1-2eca385caad7",
-    "status": "active",
+    "status": "error",
     "attack_count": 84,
     "created_at": "2025-04-08 01:09:05.889862",
-    "container_id": "1c4ed189972c87974faecbc21dc7e9024400d4820a29e34d5f79ccef96670086",
-    "mapped_port": "55524"
+    "container_id": null,
+    "mapped_port": null
   },
   "2a84cba6-1e76-422f-92d4-9a1096d64c7b": {
     "name": "Ayush",
@@ -21,11 +21,11 @@
     "emulated_system": "Ubuntu 20.04",
     "description": "",
     "id": "2a84cba6-1e76-422f-92d4-9a1096d64c7b",
-    "status": "active",
+    "status": "error",
     "attack_count": 1,
     "created_at": "2025-04-09 16:40:27.035128",
-    "container_id": "dfafae47e403c4362ca2f98c412e509ddbefc755510da029e08aaf70882b1c4f",
-    "mapped_port": "55523"
+    "container_id": null,
+    "mapped_port": null
   },
   "d9b89e15-9357-4ec7-a5b1-4cb727880769": {
     "name": "Suryadev",
@@ -35,11 +35,11 @@
     "emulated_system": "Ubuntu 22.04",
     "description": "",
     "id": "d9b89e15-9357-4ec7-a5b1-4cb727880769",
-    "status": "active",
+    "status": "error",
     "attack_count": 3,
     "created_at": "2025-04-09 17:17:16.008458",
-    "container_id": "70d60d8cd9628da475f97d1d4f1e114ed9d7f7a548e872f2235eb1dc8490a813",
-    "mapped_port": "55522"
+    "container_id": null,
+    "mapped_port": null
   },
   "2ac13d84-c02b-4c2c-b66b-3605307c0924": {
     "name": "Web Honeypot",
@@ -49,11 +49,11 @@
     "emulated_system": "Ubuntu 20.04",
     "description": "",
     "id": "2ac13d84-c02b-4c2c-b66b-3605307c0924",
-    "status": "active",
+    "status": "error",
     "attack_count": 11,
     "created_at": "2025-04-13 16:37:13.550773",
-    "container_id": "9e426d19cd2568c6a7c11184b0993da5281e0dd60ec36bcba04fb430eee6c012",
-    "mapped_port": "55521"
+    "container_id": null,
+    "mapped_port": null
   },
   "c026fa14-5bd9-44e1-af4c-7b1a68c14027": {
     "name": "Udit",
@@ -63,24 +63,24 @@
     "emulated_system": "Ubuntu 22.04",
     "description": "",
     "id": "c026fa14-5bd9-44e1-af4c-7b1a68c14027",
-    "status": "active",
+    "status": "error",
     "attack_count": 43,
     "created_at": "2025-04-14 15:19:53.341401",
-    "container_id": "b359819de17122ef0f5de84577f2cd0115b71fa37b6a1de88dceeb4e736e3b6b",
-    "mapped_port": "55520"
+    "container_id": null,
+    "mapped_port": null
   },
-  "4765915d-a415-4868-b0a9-b01e0dafa0b5": {
-    "name": "glad",
+  "5066147d-67e6-46d0-a21f-9ea6f485c07a": {
+    "name": "test_24_04_2026",
     "type": "SSH",
     "ip_address": "192.168.1.100",
     "port": "22",
     "emulated_system": "",
-    "description": "",
-    "id": "4765915d-a415-4868-b0a9-b01e0dafa0b5",
+    "description": "test",
+    "id": "5066147d-67e6-46d0-a21f-9ea6f485c07a",
     "status": "active",
-    "attack_count": 12,
-    "created_at": "2025-04-14 19:12:24.337709",
-    "container_id": "1ac58798bfe6810f605ee7ad36301deee1c3a48e0255d5e96febacf079006798",
-    "mapped_port": "55518"
+    "attack_count": 4,
+    "created_at": "2026-04-24 18:46:09.993609",
+    "container_id": "5ea43db40a08fb3fd0cee0abc79447307a2fb6bdf7097da97c13efc1b6099419",
+    "mapped_port": "56455"
   }
 }
