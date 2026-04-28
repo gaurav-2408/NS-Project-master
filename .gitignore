@@ -1,2 +1,9 @@
 node_modules
 .env
+.env.*
+!.env.example
+honeypot-backend/.env
+honeypot-backend/.env.*
+!honeypot-backend/.env.example
+honeypot-backend/data/attacks.json
+honeypot-backend/data/honeypots.json

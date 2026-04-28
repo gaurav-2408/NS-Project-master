@@ -5,9 +5,11 @@ import logging
 import asyncio
 import os
 from datetime import datetime
+from pathlib import Path
 from dotenv import load_dotenv
 
-load_dotenv()
+BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(BASE_DIR / ".env")
 
 from .honeypot import router as honeypot_router
 from .simulation_api import router as simulation_router
