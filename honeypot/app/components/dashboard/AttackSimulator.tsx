@@ -20,6 +20,10 @@ interface SimulationSettings {
   attackTypes: string[]; // Types of attacks to simulate
 }
 
+interface AttackSimulatorProps {
+  targetHoneypotId?: string;
+}
+
 // Define all the attack types we support
 const ATTACK_TYPES = {
   LOGIN_ATTEMPT: "login_attempt",
@@ -30,9 +34,13 @@ const ATTACK_TYPES = {
   DOS: "dos",
 };
 
-export default function AttackSimulator() {
+export default function AttackSimulator({
+  targetHoneypotId,
+}: AttackSimulatorProps) {
   const [honeypots, setHoneypots] = useState<Honeypot[]>([]);
-  const [selectedHoneypot, setSelectedHoneypot] = useState<string>("");
+  const [selectedHoneypot, setSelectedHoneypot] = useState<string>(
+    targetHoneypotId || ""
+  );
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [isSimulating, setIsSimulating] = useState<boolean>(false);
   const [progress, setProgress] = useState<number>(0);
@@ -94,6 +102,9 @@ export default function AttackSimulator() {
         const response = await fetch("http://localhost:8000/honeypots");
         const data = await response.json();
         setHoneypots(data || []);
+        if (targetHoneypotId) {
+          setSelectedHoneypot(targetHoneypotId);
+        }
       } catch (error) {
         console.error("Failed to load honeypots:", error);
         toast.error("Failed to load honeypots");
@@ -103,7 +114,7 @@ export default function AttackSimulator() {
     };
 
     fetchHoneypots();
-  }, []);
+  }, [targetHoneypotId]);
 
   // Update settings
   const updateSetting = (key: keyof SimulationSettings, value: any) => {
@@ -491,7 +502,7 @@ export default function AttackSimulator() {
               <select
                 value={selectedHoneypot}
                 onChange={(e) => setSelectedHoneypot(e.target.value)}
-                disabled={isSimulating}
+                disabled={isSimulating || Boolean(targetHoneypotId)}
                 className="block w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-200 shadow-sm py-2.5 pl-4 pr-10 appearance-none focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 disabled:opacity-50 disabled:bg-gray-100 dark:disabled:bg-gray-800 transition-colors"
               >
                 <option value="">Select a honeypot</option>

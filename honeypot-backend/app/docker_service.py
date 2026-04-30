@@ -3,15 +3,36 @@ import docker
 import logging
 import os
 import re
+import shutil
 from typing import Dict, Any, Optional, List, Tuple
 import time
 from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
+
+def _ensure_windows_docker_binaries_on_path() -> None:
+    """Add Docker Desktop's bundled binaries to PATH when Windows shells miss them."""
+    if os.name != "nt":
+        return
+
+    if shutil.which("docker.exe") and shutil.which("docker-credential-desktop.exe"):
+        return
+
+    program_files = os.environ.get("ProgramFiles", r"C:\Program Files")
+    candidate = os.path.join(program_files, "Docker", "Docker", "resources", "bin")
+
+    if os.path.isdir(candidate):
+        current_path = os.environ.get("PATH", "")
+        path_entries = current_path.split(os.pathsep) if current_path else []
+        if candidate not in path_entries:
+            os.environ["PATH"] = os.pathsep.join([candidate, current_path]) if current_path else candidate
+            logger.info("Added Docker Desktop binaries to PATH: %s", candidate)
+
 class DockerService:
     def __init__(self):
         try:
+            _ensure_windows_docker_binaries_on_path()
             self.client = docker.from_env()
             logger.info("Docker client initialized successfully")
         except Exception as e:

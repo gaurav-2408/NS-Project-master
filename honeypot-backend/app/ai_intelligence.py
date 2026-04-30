@@ -24,7 +24,8 @@ class AIThreatIntelligence:
     
     def __init__(self, db_service: DatabaseService):
         self.db_service = db_service
-        self.api_key = os.environ.get("GEMINI_API_KEY")
+        self.api_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY")
+        self.model_name = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
         
         # Smart caching with expiration
         self._cache = {}
@@ -37,11 +38,20 @@ class AIThreatIntelligence:
         # Configure Gemini
         if self.api_key:
             genai.configure(api_key=self.api_key)
-            self.model = genai.GenerativeModel('gemini-1.5-flash')  # Less expensive model
-            logger.info("Initialized Gemini API")
+            self.model = genai.GenerativeModel(self.model_name)
+            logger.info("Initialized Gemini API with model %s", self.model_name)
         else:
-            logger.warning("GEMINI_API_KEY not found")
+            logger.warning("GEMINI_API_KEY/GOOGLE_API_KEY not found")
             self.model = None
+
+    def _missing_model_error(self) -> Dict[str, Any]:
+        """Return a clear setup error when the Gemini client is unavailable."""
+        return {
+            "error": (
+                "AI insights are disabled. Add GEMINI_API_KEY (or GOOGLE_API_KEY) to "
+                "honeypot-backend/.env and restart the backend."
+            )
+        }
     
     def _check_rate_limit(self):
         """Smart rate limiting with exponential backoff"""
@@ -83,6 +93,9 @@ class AIThreatIntelligence:
     
     async def analyze_recent_attacks(self, days: int = 7, honeypot_id: Optional[str] = None) -> Dict[str, Any]:
         """Analyze recent attacks with smart caching and rate limiting"""
+        if not self.model:
+            return self._missing_model_error()
+
         # Create cache key based on parameters
         cache_key = f"analysis_{days}_{honeypot_id if honeypot_id else 'all'}"
         
@@ -167,6 +180,9 @@ Keep your analysis concise (under 250 words) and focused on actionable informati
     # app/ai_intelligence.py
     async def get_recommendations(self, honeypot_id: Optional[str] = None) -> Dict[str, Any]:
         """Get security recommendations with safe honeypot data access"""
+        if not self.model:
+            return self._missing_model_error()
+
         try:
             honeypot_data = {}
             

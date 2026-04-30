@@ -289,6 +289,9 @@ async def attack_sim(payload: Dict[str, Any] = Body(...)):
         # Save attack
         result = db_service.save_attack(attack)
         if result:
+            from .honeypot import broadcast_attack
+
+            await broadcast_attack(result)
             logger.info(f"Successfully saved attack: {attack_id}")
             return {"success": True, "attack_id": attack_id}
         

@@ -1,7 +1,7 @@
 // components/dashboard/AttackTimelineChart.tsx
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import { Line } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -15,7 +15,7 @@ import {
   TimeScale,
 } from "chart.js";
 import "chartjs-adapter-date-fns";
-import { formatToIST } from "@/utils/dateUtils"; // Use your existing utility
+import { subscribeToAttacks } from "@/lib/api-client";
 
 const BACKEND_URL = "http://localhost:8000";
 
@@ -76,7 +76,7 @@ const AttackTimelineChart: React.FC<AttackTimelineProps> = ({
     return result;
   };
 
-  const fetchAttackData = async () => {
+  const fetchAttackData = useCallback(async () => {
     try {
       const url = honeypotId
         ? `${BACKEND_URL}/honeypots/${honeypotId}/attacks?limit=100`
@@ -132,7 +132,7 @@ const AttackTimelineChart: React.FC<AttackTimelineProps> = ({
       setIsLoading(false);
       setError("Failed to load attack data. Please try again.");
     }
-  };
+  }, [honeypotId]);
 
   useEffect(() => {
     fetchAttackData();
@@ -143,7 +143,19 @@ const AttackTimelineChart: React.FC<AttackTimelineProps> = ({
     }, refreshInterval * 1000);
 
     return () => clearInterval(interval);
-  }, [honeypotId, refreshInterval]);
+  }, [fetchAttackData, refreshInterval]);
+
+  useEffect(() => {
+    const unsubscribe = subscribeToAttacks((attack) => {
+      if (honeypotId && attack.honeypot_id !== honeypotId) {
+        return;
+      }
+
+      fetchAttackData();
+    });
+
+    return unsubscribe;
+  }, [fetchAttackData, honeypotId]);
 
   const chartData = {
     datasets: [

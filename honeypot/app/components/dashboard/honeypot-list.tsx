@@ -2,7 +2,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Honeypot, getAllHoneypots } from "@/lib/api-client";
+import { Honeypot, getAllHoneypots, subscribeToAttacks } from "@/lib/api-client";
 import HoneypotCard from "./honeypot-card";
 
 // Add interface for component props
@@ -33,6 +33,20 @@ export default function HoneypotList({ searchQuery = "" }: HoneypotListProps) {
     loadHoneypots();
   }, []);
 
+  useEffect(() => {
+    const unsubscribe = subscribeToAttacks((attack) => {
+      setHoneypots((prev) =>
+        prev.map((honeypot) =>
+          honeypot.id === attack.honeypot_id
+            ? { ...honeypot, attack_count: honeypot.attack_count + 1 }
+            : honeypot
+        )
+      );
+    });
+
+    return unsubscribe;
+  }, []);
+
   // Filter honeypots based on searchQuery
   const filteredHoneypots = honeypots.filter((honeypot) => {
     if (!searchQuery) return true; // If no search query, include all honeypots
@@ -47,7 +61,7 @@ export default function HoneypotList({ searchQuery = "" }: HoneypotListProps) {
       honeypot.status?.toLowerCase().includes(query) ||
       honeypot.emulated_system?.toLowerCase().includes(query) ||
       honeypot.container_id?.toLowerCase().includes(query) ||
-      String(honeypot.internal_port)?.includes(query) ||
+      String(honeypot.internal_port || honeypot.port)?.includes(query) ||
       String(honeypot.mapped_port)?.includes(query)
     );
   });

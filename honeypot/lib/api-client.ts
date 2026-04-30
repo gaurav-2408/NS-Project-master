@@ -7,6 +7,7 @@ export interface Honeypot {
   type: string;
   ip_address: string;
   port: string;
+  internal_port?: string;
   status: string;
   emulated_system?: string;
   description?: string;
@@ -14,6 +15,7 @@ export interface Honeypot {
   created_at: string;
   container_id?: string;
   mapped_port?: string;
+  public_ip?: string;
 }
 
 export interface CreateHoneypotDto {
@@ -38,6 +40,7 @@ export interface Attack {
 
 export interface AttackList {
   attacks: Attack[];
+  total?: number;
 }
 
 export interface AttackStats {
@@ -49,6 +52,59 @@ export interface AttackStats {
 
 let wsConnection: WebSocket | null = null;
 let wsCallbacks: ((attack: Attack) => void)[] = [];
+let wsReconnectTimer: ReturnType<typeof setTimeout> | null = null;
+let wsPingInterval: ReturnType<typeof setInterval> | null = null;
+
+function clearAttackSocketTimers() {
+  if (wsReconnectTimer) {
+    clearTimeout(wsReconnectTimer);
+    wsReconnectTimer = null;
+  }
+
+  if (wsPingInterval) {
+    clearInterval(wsPingInterval);
+    wsPingInterval = null;
+  }
+}
+
+function ensureAttackSocket() {
+  if (typeof window === "undefined" || wsConnection || wsCallbacks.length === 0) {
+    return;
+  }
+
+  const wsUrl = API_BASE_URL.replace(/^http/, "ws") + "/ws/attacks";
+  wsConnection = new WebSocket(wsUrl);
+
+  wsConnection.onmessage = (event) => {
+    try {
+      const attack = JSON.parse(event.data) as Attack;
+      wsCallbacks.forEach((cb) => cb(attack));
+    } catch (error) {
+      console.error("Error parsing WebSocket message:", error);
+    }
+  };
+
+  wsConnection.onopen = () => {
+    clearAttackSocketTimers();
+    wsPingInterval = setInterval(() => {
+      if (wsConnection?.readyState === WebSocket.OPEN) {
+        wsConnection.send("ping");
+      }
+    }, 15000);
+  };
+
+  wsConnection.onclose = () => {
+    wsConnection = null;
+    clearAttackSocketTimers();
+
+    if (wsCallbacks.length > 0) {
+      wsReconnectTimer = setTimeout(() => {
+        wsReconnectTimer = null;
+        ensureAttackSocket();
+      }, 2000);
+    }
+  };
+}
 
 // Helper function to handle API errors
 async function handleResponse(response: Response) {
@@ -125,52 +181,21 @@ export async function getAttackStats(days = 7): Promise<AttackStats> {
 
 // WebSocket connection for real-time attack notifications
 export function subscribeToAttacks(callback: (attack: Attack) => void): () => void {
-  // Add callback to the list
-  wsCallbacks.push(callback);
-
-  // Create WebSocket connection if it doesn't exist
-  if (!wsConnection) {
-    const wsUrl = API_BASE_URL.replace(/^http/, 'ws') + '/ws/attacks';
-    wsConnection = new WebSocket(wsUrl);
-
-    wsConnection.onmessage = (event) => {
-      try {
-        const attack = JSON.parse(event.data) as Attack;
-        // Call all registered callbacks
-        wsCallbacks.forEach(cb => cb(attack));
-      } catch (error) {
-        console.error('Error parsing WebSocket message:', error);
-      }
-    };
-
-    wsConnection.onclose = () => {
-      // Try to reconnect after a delay
-      setTimeout(() => {
-        wsConnection = null;
-        if (wsCallbacks.length > 0) {
-          subscribeToAttacks(() => { });
-        }
-      }, 5000);
-    };
-
-    // Keep connection alive
-    const pingInterval = setInterval(() => {
-      if (wsConnection && wsConnection.readyState === WebSocket.OPEN) {
-        wsConnection.send('ping');
-      } else if (!wsConnection || wsConnection.readyState === WebSocket.CLOSED) {
-        clearInterval(pingInterval);
-      }
-    }, 30000);
+  if (!wsCallbacks.includes(callback)) {
+    wsCallbacks.push(callback);
   }
+
+  ensureAttackSocket();
 
   // Return unsubscribe function
   return () => {
-    wsCallbacks = wsCallbacks.filter(cb => cb !== callback);
+    wsCallbacks = wsCallbacks.filter((cb) => cb !== callback);
 
     // Close connection if no more callbacks
     if (wsCallbacks.length === 0 && wsConnection) {
       wsConnection.close();
       wsConnection = null;
+      clearAttackSocketTimers();
     }
   };
 }
